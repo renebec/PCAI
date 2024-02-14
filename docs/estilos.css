@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  width:98%;
+}
+
+header {
+  background-color: #666;
+  padding: 1px;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+}
+
+body {
+  color:#909090;
+  font-family: sans-serif;
+  padding-left:7%;
+  padding-right:7%;
+  background-color:#424242;
+  font-size:24px;
+  text-align:justify;
+  margin: 0;
+
+}
+
+section {
+  color: #C2C0C0;
+  padding-top:10px;
+  padding-bottom:2%;
+  text-align: justify;
+  width: 98%;
+  background-color: "black";
+}
+
+article {
+  color: #C2C0C0;
+  padding-top:10px;
+  padding-bottom:2%;
+  text-align: justify;
+  width: 98%;
+  background-color: "black";
+}
+
+
+.boton{
+    font-size:16px;
+    background-color:#C50A40;
+    }
+
+.botonBack{
+    font-size:16px;
+    background-color:#e76010;
+
+    }
+
+.botonNext{
+    font-size:16px;
+    background-color:#e76010;
+    }
+
+h1, h2, h3, h4, h5 {
+    color:white;
+}
+
+h4 {
+    padding-left:25px;
+}
+
+h5 {
+    font-weight:normal;
+    font-style:italic;
+    text-indent:50px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+img {
+
+  max-width: 80%;
+  min-width: 20%;
+  height:auto;
+  background: #666;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+}
+
+.table, th, td {
+  border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+        white-space: nowrap;
+
+}
+
+
+.table1, td1, th1, tr1 {
+    border:1px solid white;
+  font-family: courier;
+  font-size: 21px;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px;
+  white-space:now-wrap;
+  table-layout: fixed;
+    #word-wrap: break-word;
+  word-break:keep-all;
+}
+
+
+
+#toc_container {
+    background: #8A888A none repeat scroll 0 0;
+    border: 1px solid #424242;
+    display: table;
+    font-size: 90%;
+    margin-bottom: 1en;
+    padding: 1px;
+    width:auto;
+    text-align:left;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: left;
+    color:white;
+    text-indent: 40px;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+    width:auto;
+}
+
+
+li a {
+  display: block;
+  color: #FD628C;
+  text-decoration: none;
+}
+
+
+
+li a.active {
+  background-color: #2B2A2A;
+  }
+
+li a:hover:not(.active) {
+  background-color: #C50A40;
+  color: white;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of
+each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article, p, caption {
+    width: 100%;
+    height: auto;
+  }
+}}
