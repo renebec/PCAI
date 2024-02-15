@@ -58,3 +58,8 @@ function PopWinA1s2()
 {
     window.open("popA1s2.html","width=100%", "_self");
 }
+
+function PopWinA1s3()
+{
+    window.open("popA1s3.html","width=100%", "_self");
+}
