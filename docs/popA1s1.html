@@ -1,438 +1,2418 @@
 <!DOCTYPE html>
-<html lang="en;sp">
+<html lang="en" xmlns:br="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>PyE A1S1</title>
-    <meta name="PyE A1S1"  content="HSE V;notranslate;"/>
+    <title>MSA-I</title>
+    <meta name="submódulo 1" content="suelo y agua"/>
     <meta name="Author" content="Héctor René Becerril Cejudo"/>
-    <meta name="keywords" content="probabilidad y estadística"/>
+    <meta name="keywords" content="educación"/>
     <link rel="stylesheet" href="estilos.css">
+    <script src="actions.js"></script>
 </head>
-<body translate="no">
-<script src="actions.js"></script>
-<a id="home"></a>
+<body>
 
 
-
-    <img src = "https://cdn.dribbble.com/users/8619169/screenshots/16116886/media/a63d64bcccad878cb9dfdb9a9f6b6416.gif"
-             style ="height:300px;width:50%;float:center;">
-    <img src = "https://cdn.dribbble.com/users/13496/screenshots/1327531/analytics-app.gif"
-             style ="height:300px;width:50%;float:right;">
-
-    <text style="font-size:16px;color:grey;text-align:center;"
-                  class="center">
-                Fuente: https://dribbble.com/ &emsp;&emsp;http://sdo1.krsk.irgups.ru/
-            </text>
-<!--
+    <h1>
+        <div style="font-size:30px;color:lightgray;
+        line-height:30px;padding-bottom:5px;">
+            &ensp;M I. Produce cultivos para la alimentación y la industria.
+            <br>
+        </div>
+        <text style="font-size:30px;padding-left:10px; color:grey;">
+            &emsp;S I. Produce cultivos a cielo abierto.</text>
+    </h1>
         <h2>
-            <div style="font-family:montserrat,sans-serif;font-size:20px;color:darkgrey;line-height:30px;
-                        padding-bottom:0px;padding-top:0px;background-color:#FF7700;text-align:justify;">
-                <p style="color:white;#FF7700;
-                padding-top:15px;padding-bottom:15px;line-height:10px;">
-                &nbsp;SEP SEMS DGETAyCM<br><br>
+            <div style="font-family:sans-serif;font-size:20px;color:darkgrey;line-height:30px;
+                        padding-bottom:0px;padding-top:0px;background-color:#424242;text-align:justify;">
+                <p style="color:white;background-color:#C50A40;
+                padding-top:15px;padding-bottom:15px;line-height:18px;">
+                &nbsp;Dimensiones del terreno.<br>
+                    &emsp;Desarrollo
                 </p>
             </div>
-
-
-
-
-
-            <p style ="font-family:tahoma;color:grey;font-size:16px;">
-                M.C. Héctor René Becerril Cejudo<br>
-                hector.becerril@dgetaycm.sems.gob.mx<br>
-            </p>
         </h2>
-            <p style="text-align:right;font-size:15px;color:#888888;">Aguascalientes, a 01 de febrero de 2024</p>
-
-<ul style="list-style-type: none;
-              margin: 0;
-              padding: 0;
-              overflow: hidden;
-              background-color: #2B2A2A;
-              position: -webkit-sticky; /* Safari */
-              position: sticky;
-              top: 0;">
-        <li style="float:center;margin:0;padding:0%">
-            <a style="display: block;
-                      color: white;
-                      text-align: center;
-                      padding: 10px 1px;
-                      text-decoration: none;"
-                                   class="active;"
-                                   href="#home">
-
-                inicio
-            </a>
-        </li>
-    </ul>
-<br>
-<br>
-
-<section style="background-color:#656565">
-<hr>
-<div style="margin-left:0%;padding:16px 16px;height:100%;" >
-
-
-    <div id="toc_container">
-        <p class="toc_title" style="color:white;text-decoration: none;">Contenido
-        </p>
-        <ul class="toc_list" style="text-decoration: none;">
-            <li>
-                <a href="#header"> A. Presentación</a>
-            </li>
-            <li>
-                <a href="#cap 1"><text style="color:white;font-weight:bold;">Parte I: conceptos básicos de estadística y
-                probabilidad <buttonA1 onclick="PopWinA1()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonA1>  </text></a>
-            </li>
-
-            <br>
-                <br>
-            <ul>
-                    <li>
-                        <a href="#1 sub 1"><b style="color:#FFFFFF">Manejo de la
-                            información en situaciones de la vida cotidiana.</b>
-                        <buttonAs1 onclick="PopWinAs1()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonAs1></a>
-                    </li>
-                    <ul>
-                        <li>
-                                <a href="#1 sub 1 sub 0">&#8226; Explorando conocimientos previos
-                                <buttonAs1_1 onclick="PopWinAs1_1()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonAs1_1></a>
-                            </li>
-                        <ul>
-                            <li>
-                                <a href="#1 sub 1 sub 0 sub 1">&#8226; Actividad 1
-                                <buttonAs1_1e1 onclick="PopWinAe3()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonAs1_1e1></a>
-                            </li>
-                        </ul>
-                        <li>
-                                <a href="#1 sub 1 sub 1">&#8226; Conociendo R
-                                <buttonAs1_2 onclick="PopWinAe3()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonAs1_2></a>
-                            </li>
-
-                            <li>
-                                <a href="#1 sub 1">&#8226; Activity 1</a>
-                            </li>
-                            <ul>
-                                <li>
-                                    <a href="#1 sub 1 sub 1 sub 1">&#8226; Reading and listening</a>
-                                </li>
-
-                                <li>
-                                    <a href="#1 sub 1 sub 1 sub 2">&#8226; To speak and write correctly</a>
-                                </li>
-
-                            </ul>
-                        </ul>
-                </ul>
-            </ul>
-        </ul>
-    </div>
-    <hr>
-</section>
-
-
-
-            <section>
-                <h3 id="header">
-                    <br>
-                    <br>Presentación</h3>
-                El presente material didáctico es una recopilación de lecturas y algunos ejercicios de
-                distintas fuentes bibliográficas. El propósito es facilitar a los estudiantes una
-                colección selecta de materiales que les sean útiles para guiarse en la asignatura de
-                Probabilidad y Estadística. Los ejercicios que se presentan no son limitativos de lo
-                que los docentes puedan agregar en su programación de actividades y prácticas. La
-                transversalidad con otras asignaturas también es a consideración de los docentes de
-                acuerdo a su contexto particular.
+<!--
+<div style="margin-left:0%;padding:16px 16px;height:100%;">
+                De manera muy simple podemos definir al suelo como la capa más superficial de este
+                planeta que interactúa con la atmósfera y en la que crecen las plantas (Figura 1).
+                Desde el punto de vista agronómico, el suelo es el sustrato natural en el que es posible el establecimiento y
+                desarrollo de los cultivos.
                 <br>
                 <br>
-                Estaré atento a las sugerencias o correcciones
-                que puedan observarse sobre este material, seguro estoy de que habrá muchas aportaciones
-                enriquecedoras por parte de otros profesionales en el área.
-                Por último, de corazón espero que éste modesto esfuerzo les sea de utilidad en cada uno de
-                sus planteles y espacios de aprendizaje.
+                <figure>
+                <img
+                        src="sueloyplanta1.png"
+                class="center" style="width:auto">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 1. Suelo y planta.</figcaption>
+                </figure>
                 <br>
                 <br>
-                <p style="text-align:right">
-                Aguascalientes a 31 de enero de 2024<br>
-                </p>
-
-                <h3 id="cap 1" >
-                    <br>
-                    <br>
-                    <ph3>
-                  Parte 1: conceptos básicos de estadística y probabilidad
-                        </ph3>
-                    <br><br>
-                </h3>
-
-                <p style="color:#FFB811"> <b>Aprendizajes esperados</b>:
+                El suelo es un recurso natural muy valioso sin el cual no podría sostenerse la vida en
+                nuestro planeta. Si bien es cierto que actualmente es posible cultivar plantas en diversos tipos
+                de sustratos como la fibra de coco por ejemplo, la importancia del suelo vas más allá del sentido
+                productivo, ya que el suelo juega un rol muy importante dentro de los ciclos e interacciones
+                biogeoquímicas necesarias para mantener la vida a escala planetaria. En la cadena  alimentaria por ejemplo,
+                una vez que muere un animal, este se descompone en el suelo y libera sustancias
+                y minerales que son necesarios para que se alimenten otros organismos vivos como las plantas.
                 <br>
-                    <div style="padding-left:5%;color:#FFE090">
-                    Recolecta y ordena la información de alguna situación.<br>
-                    Interpreta y analiza la información.<br>
-                    Representa la información.<br>
-                    Toma decisiones a partir del análisis de la información.</p>
-                    </div>
-
-                <p style="color:#FFB811"> <b>Producto esperado</b>:
                 <br>
-                <div style="padding-left:5%;color:#FFE090">
-                Construcción de distintos tipos de gráficos y emisión de opiniones derivadas de ellos.
-                </div>
-
-                <p style="color:#FFB811"> <b>Duración</b>:
+                No todos los suelos son iguales, los hay de distintos colores, profundidades, los hay de
+                textura fina o arenosos de grano grueso, etc., (Figura 2), por lo que debemos aprender a
+                identificarlos y conocer sus principales características.
+                Desde el punto de vista agrícola existen algunas características del suelo que son de
+                interés fundamental y que deben tomarse en cuenta para tener éxito en el establecimiento y desarrollo
+                de los cultivos.
                 <br>
-                <div style="padding-left:5%;color:#FFE090">
-                5 semanas.
+                <br>
+                <figure>
+                <img src="https://cdn.portalfruticola.com/2023/06/media-works-VI23123.png"
+                class="center" style="width:auto">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 2. Suelos de distintos colores.</figcaption>
+                </figure>
 
                 <br>
+                En términos agronómicos, el término <b style="color:#FD628C">fertilidad del suelo</b> se refiere a la capacidad que
+                tiene un suelo para brindarle a las plantas las condiciones y los nutrientes que necesitan para crecer,
+                lo que puede medirse a través de ciertos parámetros como puede ser la <b style="color:#FD628C">cantidad
+                de materia orgánica presente, el contenido de cationes intercambiables, su acidez, textura</b>, entre otros
+                parámetros que son observables a partir de un <b style="color:#FD628C">análisis de fertilidad de suelos</b>.
+                Cuando queremos iniciar un proyecto agrícola y establecer un cultivo en un terreno, es entonces cuando
+                cobra gran importancia conocer la fertilidad de dicho terreno para así saber si existen ahí las
+                condiciones ideales para el desarrollo del cultivo, o si en su lugar, tendrán que realizarse acciones
+                para compensar cualquier condición adversa observada. La
+                fertilidad puede variar a través del tiempo y puede variar a lo largo de un mismo terreno. Además, hay
+                aspectos orográficos y topográficos que pueden incidir sobre la pérdida de la fertilidad, por lo que deben
+                tomarse en cuenta para definir el tipo de prácticas agrícolas que deberán establecerse para mantener
+                dicha fertilidad (Figura 3). Es por eso que antes de cultivar un terreno,
+                es recomendable conocer bien sus características: perímetro y superficie, el grado de la pendiente o
+                inclinación, su acidez, textura por lo que se recomienda siempre tener un plano o al menos un croquis y además
+                realizar un <b style="color:#FD628C">análisis de fertilidad del suelo</b> cada año, de ser posible.
                 <br>
-                <buttonA1 onclick="PopWinAs1()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonA1>
                 <br>
-                <br>
-                <br>
-                <br>
+                <figure>
+                <img src="https://elportal.mx/wp-content/uploads/2021/01/Figura-1.-Siembra-de-maiz-y-frijol-en-franjas-alternas-con-micro-rotacion-anual-en-el-sistema-MIAF-en-laderas-pronunciadas.-Tlahutiltepc-Oax..jpg"
+                class="center" style="width:auto">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 3. En la imagen podemos ver un terreno con una pendiente
+                        considerable en la que cultivan bajo un sistema de Milpa Intercalada con
+                        Árboles Frutales (MIAF) y surcos en contorno, buscando así reducir la erosión del suelo.</figcaption>
+                </figure>
 
-                </div>
-                -->
-
-
-                    <h4 id="1 sub 1">
+                <text>
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
                         <br>
-                            Tema 1. Manejo de la información en situaciones de la vida cotidiana.
-                        </h4>
-                    </h4>
+                        <b>Actividad 1</b>
 
-<p>
-La estadística nos ayuda a entender el mundo que nos rodea, a descubrir patrones y tendencias, a
-tomar decisiones informadas y a planificar el futuro. La estadística se aplica en muchos campos y
-situaciones de la vida cotidiana, como la economía, la salud, la educación, el deporte, el clima,
-las redes sociales, las compras en línea y mucho más.</p>
+                        <br>
+                        &#128073;<button onclick="PopWinAr1()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 1....</button>
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;1.  ¿Qué es el suelo?
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;2.  ¿Por qué razones el suelo es importante para mantener la vida en el planeta?
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;3. ¿Cómo explicarías a tus familiares en casa el significado del
+                        término <b style="color:#9090E9;">fertilidad del suelo</b>?
+                        <br>
+                        <br>
+                        &nbsp;&nbsp;4. ¿Por qué es recomendable realizar anualmente un
+                        <b style="color:#9090E9;">análisis de fertilidad del suelo</b>?
+                    </p>
+                </text>
 
-<br>
 
-
+                <br>
+                <br>
 
                     <button onclick="PopWinA1()"
-                                style="font-weight:bold;color:white;width:100px" class="botonBack">
-                   <<</button>
-                    <button onclick="PopWinA1s1_1()"
                                 style="font-weight:bold;color:white;width:100px" class="botonNext">
                    >></button><br>
 <button onclick="PopWinClose()"
                                 style="font-weight:bold;color:white;width:100px" class="boton">
                    cerrar</button>
 
+
+              <h3>
+                    <br>
+                    <br>1. DIMENSIONES DEL TERRENO</h3>
+                Formen equipos de 4 integrantes y resuelvan el problema que se plantea a
+    continuación.
+    <br>
+    <br>
+    <p style="background-color:#e9e970;color:maroon;padding-left:5px;padding-right:5px">
+        <br>
+        Se necesita saber cuál es la superficie del terreno de la escuela. Forma un
+        equipo de 4 integrantes y desarrollen una estrategia para poder conocer
+        la superficie del terreno. Enumera las acciones y/o herramientas
+        que utilizarias y describe el procedimiento así como el resultado.
+        <br>
+        <br>
+    </p>
+                <button onclick="PopWinIntro()"
+                                style="font-weight:bold;color:white;width:100px" class="botonBack">
+                   <<</button>
+                                    <button onclick="PopWinA1s1()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button><br>
+<button onclick="PopWinClose()"
+                                style="font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+        <br>
+    <br>
+    <br>
+        <br>
+    <br>
+           Uno de los aspectos básicos antes de pretender establecer un cultivo es conocer la
+                superficie del terreno donde se desea sembrar. En esta sección aprenderemos a medir
+                un terreno utilizando herramientas gratuitas y equipos de uso común en la actualidad.
+ -->               <br>
+                <br>
+                El equipo a utilizar para esta tarea será un teléfono celular que tenga sistema de
+                posicionamiento. Será necesario descargar la aplicación <b style="color:#FD628C">
+                GPS essentials</b> que es gratuita y está disponible en <b>App Store</b> para teléfonos
+                android.
+                <h3 id="1 sub 1">
+                    <br>
+                    <br>1.1. Aplicación GPS essentials</h3>
+                    Antes de utilizar la aplicación será necesario hacer algunas configuraciones. Primero debemos
+                configurar los permisos de ubicación en el teléfono. Esto se hace en el menú del teléfono en
+                <text style="color:#FD628C">Configuración/Aplicaciones/Administración de Aplicaciones/GPS essentials/permisos/ubicación</text> y
+                seleccionando la opción <text style="color:#FD628C">permitir cuando la app esté en uso</text>.
+                <br>
+                <br>
+                Ahora ingresaremos en la configuración de la aplicación. Al abrir la app veremos un menú principal
+                donde hay diferentes íconos tal como se
+                muestra en la Figura 4, ubicamos los tres
+                puntos que se ubican en la parte superior derecha (1) y haremos click
+                y se desplegará una lista en la que seleccionaremos la opción
+                <b style="color:#FD628C">settings (configuración)</b> (2) dentro de la que
+                modificaremos los parámetros de <b style="color:#FD628C">Units (Unidades)</b> (3) y
+                <b style="color:#FD628C">Position format (Formato de posición)</b> (4).
+                <br>
+                <br>
+                <figure>
+                <img src="gps01.png"
+                class="center" style="width:80%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 4. Acceso a la configuración de GPS essentials. La imagen de la izquierda corresponde al
+                    menú principal de la aplicación.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Primero configuraremos las Unidades (3) y seleccionaremos la opción
+                <b style="color:#FD628C">Meters (SI)</b> como se muestra en la Figura 5.
+                <br>
+                <br>
+                <figure>
+                <img src="05 gps.jpg"
+                class="center" style="width:20%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 5. Configurando las unidades de medida en
+                        <text style="color:#FD628C">metros (SI)</text>.</figcaption>
+                </figure>
+                <br>
+                <br>
+                El siguiente paso es configurar el Formato de posición (4) y seleccionaremos la
+                opción <b style="color:#FD628C">UTM</b> como se muestra en la Figura 6.
+                <br>
+                <br>
+                <Figure>
+                <img src="06 gps.jpg"
+                class="center" style="width:20%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 6. Configurando el Formato de posición en
+                        <text style="color:#FD628C">UTM</text>.</figcaption>
+                </figure>
+                <br>
+                <br>
+                En el siguiente paso será regresar al menú principal de la aplicación y hacer click en la
+                opción <b style="color:#FD628C">Dashboard</b> como se muestra en la Figura 7.
+                <br>
+                <br>
+                <figure>
+                <img src="07 gps.jpg"
+                class="center" style="width:20%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 7. En el menú principal
+                        seleccionamos la opción
+                        <text style="color:#FD628C">Dashboard</text>.</figcaption>
+                </figure>
+                <br>
+                <br>
+                <text style="font-style:italic;font-weight:bold;">Agregando un <b style="color:#FD628C">widget</b> al Dashboard:</text>
+                <br>
+                <br>
+                Una vez que estamos dentro del <b style="color:#FD628C">Dashboard</b> agregaremos una tarjeta
+                de información o <b style="color:#FD628C">widget</b>, para eso haremos click en
+                el signo "<b style="color:#FD628C">+</b>" que se ubica en la parte superior y en el menú
+                desplegado seleccionaremos la opción <b style="color:#FD628C">Position</b> y por último
+                hacemos click en la opción <b style="color:#FD628C">Close</b> como se indica en la
+                Figura 8.
+                <br>
+                <br>
+                <figure>
+                <img src="08gps_.png"
+                class="center" style="width:100%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 8.
+                        Dentro del Dashboard haremos click en el signo
+                        "<text style="color:#FD628C">+</text>" con lo que se desplegará
+                        un menú donde seleccionaremos la opción <text style="color:#FD628C">Position</text>.</figcaption>
+                </figure>
+                <br>
+                <br>
+
+                Ahora nuestro Dashboard contiene una tarjeta que muestra la posición
+                actual en coordenadas dadas en <b style="color:#FD628C">metros</b>
+                y nos muestra también la zona UTM. Este tipo de tarjetas de
+                información las llamaremos <b style="color:#FD628C">widgets</b> y existe la opción de agregar varios
+                de estos widgets que pueden mostrar otro tipo de información como la altitud o la fase
+                lunar actual entre otras opciones que por el momento no utilizaremos.
+                En la Figura 9 podemos ver el
+                <b style="color:#FD628C">widget</b> que recién hemos agregado y que muestra datos de
+                <b style="color:#FD628C">Position</b> (posición), podemos ver en el widget el número
+                <b style="color:#FD628C">13 +</b> que indica la zona UTM que corresponde a la zona "13 Norte", y
+                observamos también el valor
+                de la coordenada "x" que es 778,189 (metros); después en la parte inferior del widget
+                podemos ver el valor de la coordenada "y" que es 2,461,222 (metros).
+                <br>
+                <br>
+                <figure>
+                <img src="10 gps.jpg"
+                class="center" style="width:30%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 9.
+                        Datos de posición en formato UTM.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Ahora, por tu cuenta, agrega al Dashboard los siguientes <b style="color:#FD628C">widgets</b>:
+                <br>
+                <br>
+                a) <b style="color:#FD628C">Accuracy</b> (Precisión) <br>
+                b) <b style="color:#FD628C">Altitude</b> (Altitud).<br>
+                <br>
+                No olvides que antes de registrar cualquier posición de interés es importante encender la
+                <b style="color:#FD628C">ubicación</b> de nuestro teléfono. Ahora, con la ubicación de tu teléfono
+                activada observa el Dashboard y registra en tu libreta la información que aparece
+                en los tres <b style="color:#FD628C">widgets</b> que agregaste. En la Figura 10 se muestra la
+                apariencia del Dashboard con los tres <b style="color:#FD628C">widgets</b> activos.
+                <br>
+                <br>
+                <figure>
+                <img src="dashwidg.jpg"
+                class="center" style="width:30%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 10.
+                        Dashboard con tres widgets: <b style="color:#FD628C">Position, Accuracy</b> y
+                        <b style="color:#FD628C">Altitude</b>.</figcaption>
+                </figure>
+                <br>
+                <button onclick="PopWinA1()"
+                                style="font-weight:bold;color:white;width:100px" class="botonBack">
+                   <<</button>
+                                    <button onclick="PopWinA1s2()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button><br>
+<button onclick="PopWinClose()"
+                                style="font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+        <br>
+    <br>
+    <br>
+        <br>
+    <br>
+<!--                <h3 id="1 sub 2">
+                    <br>
+                    <br>1.2. Registrando coordenadas</h3>
+                Una vez que encendemos la ubicación de nuestro teléfono entonces abrimos
+                la aplicación GPS essentials y nos vamos al Dashboard, ahí podremos ver las
+                coordenadas "x" y "y" de nuestra posición en tiempo real. Si queremos registrar
+                las coordenadas de un sitio de interés, una forma sencilla de hacerlo es
+                anotando en una libreta las coordenadas que observamos en el Dashboard, sin
+                olvidar representar en un croquis cada uno de los puntos que registramos.
+                <br>
+                <br>
+                <br>
+                <text style="font-style:italic;font-weight:bold;">Registrar coordenadas de sitios como <b style="color:#FD628C">waypoints</b>:</text>
+                <br>
+                <br>
+                Existe otra opción para registrar las coordenadas de un punto y consiste en
+                lo siguiente: una vez encendida la ubicación el celular, abrimos la aplicación
+                GPS essentials y dentro del menú principal de la aplicación haremos click en
+                la opción <b style="color:#FD628C">waypoints</b> (Figura 11).
+                <br>
+                <br>
+                <figure>
+                <img src="waypointmenu.jpg"
+                class="center" style="width:30%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 11.
+                        La opción <b style="color:#FD628C">waypoints</b> dentro del menú principal.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Una vez que seleccionamos la opción <b style="color:#FD628C">waypoints</b> veremos
+                una nueva pantalla y ubicaremos una cruz blanca con fondo naranja
+                <mark style="background-color:orange"><b style="color:white">+</b></mark>
+                y ahora haremos click sobre esa cruz.
+                Inmediatamente se abrirá una nueva pantalla
+                donde tenemos la opción de seleccionar el símbolo con el que queremos registrar y
+                representar nuestra ubicación actual, y además, tenemos la opción de asignarle
+                un nombre y una descripción a dicho registro.
+                <br>
+                <br>
+                <figure>
+                <img src="waypointaddname.jpg"
+                class="center" style="width:30%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 12.
+                        Puedes asignarle un símbolo a tu <b style="color:#FD628C">waypoint</b>
+                        y además un nombre y una descripción .</figcaption>
+                </figure>
+                <br>
+                <br>
+                Como primer ejemplo seleccionaremos el símbolo del círculo rojo con
+                una línea blanca horizontal, agregaremos como nombre "<b style="color:#FD628C">SITIO DE PRUEBA</b>"
+                y como descripción escribiremos "<b style="color:#FD628C">Probando la aplicación</b>".
+                Por último, hacemos click en la opción de <b style="color:#FD628C">create</b>
+                y así hemos registrado en el teléfono un <b style="color:#FD628C">waypoint</b> con nombre,
+                descripción y cuyas coordenadas quedarán también registradas en la aplicación.
+                <br>
+                <br>
+                <figure>
+                <img src="waydata.png"
+                class="center" style="width:85%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 13.
+                        Asignando símbolo, nombre y descripción a un <b style="color:#FD628C">waypoint</b>.
+                    </figcaption>
+                </figure>
+                <br>
+                <br>
+                Cuando necesitemos la información de nuestros waypoints simplemente ingresamos
+                desde el menú principal a la opción <b style="color:#FD628C">Waypoints</b> y buscamos por
+                nombre aquel que nos interesa, hacemos click sobre el nombre y podremos
+                ver la descripción y además, si la unicación del teléfono está encendida, podemos
+                saber que tan lejos nos encontramos de ese waypoint.
+                <br>
+                <br>
+                <figure>
+                <img src="way_list.png"
+                class="center" style="width:85%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 14.
+                        Consultando los datos de nuestro <b style="color:#FD628C">waypoint</b>. Entre la lista
+                        de los diferentes waypoints que tengamos registrados (izquierda) seleccionamos aquel que nos
+                        interesa y entonces podremos ver la descripción completa (derecha) de ese waypoint y, si la
+                        ubicación del teléfono está encendida, podremos ver
+                        la distancia a la que nos encontramos de el.
+                    </figcaption>
+                </figure>
+              <h3 id="1 sub 3">
+                    <br>
+                    <br>1.3. Midiendo la superficie del terreno de la escuela</h3>
+                Primero debemos dibujar un croquis del terreno que contenga algunos elementos
+                de referencia como la entrada, los salones, caminos, etc. Este croquis debemos
+                dibujarlo con el norte hacia la parte superior de la hoja. En el croquis ubicaremos
+                los vertices del terreno de la escuela y los etiquetaremos con letras: A, B, C,...,etc., como
+                se muestra en la Figura 11.
+                Con ayuda de la aplicación <b style="color:#FD628C">GPS essentials</b>, recorreremos cada uno de los vértices
+                del terreno. Al llegar a cada uno de los vértices esperaremos dos minutos
+                antes de registrar en nuestra libreta las coordenadas;
+                es muy importante esperar al menos dos minutos con la finalidad de darle
+                oportunidad al GPS de corregir la posición y tener una mejor precisión (Accuracy) para obtener datos más confiables.
+                Repetiremos el procedimiento en cada uno de los
+                vértices del terreno. Las coordenadas obtenidas en cada vértice son las siguientes:
+                <br>
+                <br>
+                A(778104, 2461333)<br>
+                B(778251, 2461318)<br>
+                C(778097, 2461194)<br>
+                D(778244, 2461184)
+                <br>
+                <br>
+                Con nuestro croquis a la mano y con la lista de coordenadas utilizaremos el
+                método del <b style="color:#FD628C">determinante</b> para hacer el cálculo de
+                la superficie del terreno siguiendo el ejemplo visto en clase con tu profesor.
+                <br>
+                <br>
+                <figure>
+                <img src="11croquis.png"
+                class="center" style="width:70%">
+                </figure>
+                <img src="areamath.png"
+                class="center" style="width:40%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 15.
+                        Croquis del terreno de la escuela con vértices A, B, C, D (arriba). Fórmula de área por
+                        determinante con la matriz de
+                    coordenadas de cada vértice (abajo).</figcaption>
+                </figure>
+                <br>
+                <br>
+                La matriz de coordenadas se construye escribiendo en cada fila las coordenadas "x" y "y" de cada punto.
+                En esta ocasión se decidió comenzar
+                escribiendo en la primera fila los datos del punto B, por lo tanto, el resto de puntos
+                se irán ingresando, con referencia en el croquis, en el sentido contrario a las manecillas del reloj
+                <b style="color:#FD628C">considerando que el croquis
+                fue trazado con orientación norte</b>. Una vez agregadas a la matriz las coordenadas
+                de cada punto, al final se deben repetir las coordenadas del primero.
+                <br>
+                <br>
+                <figure>
+                <img src="vertex_order.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 16.
+                        La matriz se construye iniciando con las coordenadas de un punto y
+                        posteriormente agregando los datos del resto de puntos en el sentido
+                        contrario a las manecillas del reloj.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Una vez ordenada la matriz, haremos las multiplicaciones correspondientes
+                pero tomando en cuenta solo la <b style="color:#FD628C">cifra reducida</b>, esta se obtiene eliminando de izquierda a
+                derecha aquellas cifras que son comunes en todos los vértices, como se muestra en la Figura 13 donde
+                se observa que para cada par de coordenadas solo se usaron las cifras marcadas en color verde.
+                Primero se realizarán las multiplicaciones marcadas por las flechas descendientes, y se irán sumando,
+                obteniendo así la <b style="color:#FD628C">suma 1</b>, posteriormente se realizarán las multiplicaciones marcadas por
+                las flechas ascendentes, y se irán sumando, obteniendo así la <b style="color:#FD628C">suma 2</b>.
+                <br>
+                <br>
+                <figure>
+                <img src="vertex_matrix.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 17.
+                        Para las operaciones solo se usarán las <b style="color:#FD628C">cifras reducidas</b> marcadas
+                        en color verde habiendo eliminando (de izquierda a derecha) aquellos números que se repiten
+                        en cada uno de los puntos.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Por último se realiza la resta de las dos sumas y el resultado se divide entre 2. A continuación se
+                muestran con detalle las operaciones en la matriz de coordenadas antes explicadas:
+                <br>
+                <br>
+                <p style="background-color:black;padding:5px">= <text style="font-size:16px;color:orange">&emsp;[(251 x 333) + (104 x 194) + (97 x 184) + (244 x 318)]</text> -
+                    <text style="font-size:16px;color:#2987F5">[(251 x 184) + (244 x 194) + (97 x 333) + (104 x 318)]</text>
+                <br>
+                <br>
+                    = <text style="font-size:16px;color:orange">&emsp;(83,583 + 20,176 + 17,848 + 77,592)</text> -
+                    <text style="font-size:16px;color:#2987F5">(46,184 + 47,336 + 32,301 + 33,072)</text>
+                    <br>
+                    <br>
+                    = <text style="font-size:16px;color:orange">&emsp;199,199</text> -
+                    <text style="font-size:16px;color:#2987F5">158,893</text>
+                    <br>
+                    <br>
+                    = <text style="font-size:16px;color:white;font-weight:bold">40,306</text>
+                    <br>
+                    <br>
+                    <text style="font-size:16px;color:white;font-weight:italic">Este último resultado se
+                        divide entre dos para así obtener nuestro resultado final en m<sup>2</sup>.
+                    <br>
+                    <br>
+                    40,306 / 2 &emsp;=
+                    </text>  <text style="font-size:16px;color:yellow;font-weight:italic">&emsp;20,153 m<sup>2</sup></text>
+                    <br>
+                    <br>
+                    <text style="font-size:16px;color:white;font-weight:italic">Para convertir nuestro resultado a hectáreas simplemente dividimos entre 10,000:
+                        <br>
+                        <br>
+                        20,153 / 10,000 = 2.01 hectáreas.</text>
+                    </text>
+                </p>
+                <br>
+                <br>
+                En muchas ocasiones será de interés calcular la distancia que hay entre dos sitios.
+                En esos casos utilizaremos las coordenadas de los dos puntos de interés y la
+                fórmula de <b style="color:#FD628C">distancia entre dos puntos</b> vista en clase con
+                tu profesor y que se muestra a continuación:
+                <br>
+                <br>
+                <figure>
+                <img src="distancia.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 18.
+                        Fórmula para calcular la distancia entre dos puntos A y B.</figcaption>
+                </figure>
+                <br>
+                <br>
+                Ahora te invito a que calcules por tu cuenta la distancia que hay entre los puntos C y D
+                del croquis de la Figura 16 previamente visto. Utiliza las coordenadas que se mostraron
+                en el ejemplo y no olvides trabajar con cifras reducidas para facilitar las operaciones.
+
+                <h3 id="2 cap">
+                    <br>
+                    <br>2. MUESTREO DE SUELOS</h3>
+                    El muestreo de suelos es el procedimiento mediante el cual se obtienen algunas
+                muestras de suelo que posteriormente serán sometidas al análisis de fertilidad en laboratorio.
+                El propósito del muestreo es obtener una pequeña porción de suelo que sea
+                representativa de las características generales de todo el terreno que se quiere cultivar.
+                El procedimiento de muestreo debe cubrir tres etapas:
+                <br>
+                <br>
+                &emsp;1. Distribución de los sitios de muestreo.<br>
+                &emsp;2. Extracción de las muestras.<br>
+                &emsp;3. Preparación de la muestra compuesta.
+                <br>
+                <br>
+                <h4 id="2 sub 1">
+                    <br>
+                    <br>2.1. Distribución de los sitios de muestreo</h4>
+                Es importante que los sitios de donde se obtendrán las muestras de suelo estén bien
+                distribuidos a través del terreno. Con esto se busca "capturar" las
+                características generales del suelo del terreno completo. Debe evitarse que las muestras
+                sean forzadas a ser extraidas de zonas
+                "preferidas" por la persona que realiza el muestreo. Esto quiere decir que las
+                muestras deben ser distribuidas de manera aleatoria (al azar). Se tomará como referencia
+                metodológica la Norma Oficial Mexicana 021 de SEMARNAT emitida en el año 2000 (NOM-021-SEMARNAT-2000).
+                <br>
+                <br>
+                Para distribuir los sitios de muestreo será necesario elaborar un croquis del terreno,
+                dicho croquis deberá dibujarse orientado hacia el norte. Dentro del
+                croquis es importante señalar algunos elementos de referencia como cruces de camino, árboles,
+                construcciones de referencia, cercas, o cualquier elemento que sea fácil de identificar
+                tanto en el croquis como en el terreno. Con ayuda del croquis y mediante un reconocimiento
+                del terreno, trazaremos al menos 3 lineas imaginarias que crucen el terreno en zig-zag,
+                apoyándonos en distintos objetos de referencia tal como se muestra en la Figura 12, donde
+                se utilizaron 4 árboles de referencia y que los identificamos con las letras
+                <b style="color:#FD628C">J, K, L</b> y <b style="color:#FD628C">M</b>.
+                <br>
+                <br>
+                <figure>
+                <img src="zigzag.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 12. Lineas en zigzag trazadas sobre el terreno con
+                        apoyo de algunos árboles de referencia marcados con las letras J, K, L y M y que son
+                        fácilmente identificables en campo.</figcaption>
+                </figure>
+                <br>
+                <br>
+                El siguiente paso es salir a campo y tomar las coordenadas de los vértices del terreno, y
+                además, registrar también las coordenadas de los objetos de referencia, en este caso, las
+                coordenadas de los árboles <b style="color:#FD628C">J, K, L</b> y <b style="color:#FD628C">M</b>. Se deberá medir
+                la distancia que hay en cada uno de los tramos del zig-zag, es decir, la distancia en
+                los segmentos <b>J-K, K-L</b> y <b>L-M</b>. En terrenos pequeños menores a 2 ha será
+                suficiente distribuir 10 sitios de muestreo. Siguiendo con nuestro ejemplo, distribuiremos
+                los diez sitios sobre las 3 líneas de zig-zag:
+                <br>
+                <br>
+                a) tramo J-K: 3 sitios<br>
+                b) tramo K-L: 4 sitios<br>
+                c) tramo L-M: 3 sitios<br>
+                <br>
+                <br>
+                Para distribuir los sitios de muestreo en un segmento utilizaremos la siguiente
+                fórmula:<br>
+                <br>
+                d<sub style="font-size:11px">p-q</sub> = D / (n + 1)
+                <br>
+                <br>
+                Donde:<br>
+                d<sub style="font-size:11px">p-q</sub>: distancia entre muestras dentro del segmento que va del punto p al punto q.<br>
+                D: longitud del segmento que va del punto p al punto q.<br>
+                n: número de muestras asignadas al segmento que va del punto p al punto q.
+                <br>
+                <br>
+                Digamos que el segmento J-K, que es el segmento que va del punto J al punto K,
+                mide 100 metros, y en ese segmento debemos distribuir tres sitios de muestreo,
+                utilizando la fórmula tenemos entonces que:
+                <br>
+                <br>
+                d<sub style="font-size:11px">j-k</sub> = 100 / (3 + 1)<br>
+                d<sub style="font-size:11px">j-k</sub> = 100 / 4<br>
+                d<sub style="font-size:11px">j-k</sub> = 25
+                <br>
+                <br>
+                Los sitios de muestreo a lo largo del segmento J-K se marcarán
+                cada 25 metros. Si el segmento K-L midiera también 100 metros, entonces
+                los 4 sitios de muestreo se marcarían cada 20 m a lo largo del segmento,
+                comprueba este último resultado utilizando la fórmula. A cada sitio de muestreo
+                se le asigna una clave de identificación como se muestra en la Figura 13.
+                <br>
+                <br>
+                <figure>
+                <img src="sitiosM.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 13. Distribución de los 10 sitios de muestreo
+                        a lo largo de los tres segmentos de zig-zag.</figcaption>
+                </figure>
+                <br>
+
+                <h3 id="2 sub 2">
+                    <br>
+                    <br>2.2. Extracción de submuestras</h3>
+
+                En cada sitio de muestreo obtendremos una <b style="color:#FD628C">submuestra</b>. Siguiendo con nuestro
+                ejemplo, tendremos un total de 10
+                submuestras que posteriormente servirán para
+                obtener una <b style="color:#FD628C">muestra compuesta</b> que es la que será enviada a
+                laboratorio para el análisis de fertilidad.
+                <br>
+                <br>
+                <figure>
+                <img src="sub_rev.png"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 14. Las submuestras serán posteriormente
+                        mezcladas para obtener una muestra compuesta.</figcaption>
+                </figure>
+               <br>
+
+                Para esta actividad se necesitan algunas herramientas como azadón, pala recta,
+                pico, bolsas y etiquetas adhesivas. Primero se limpia la zona de extracción
+                en una superficie de 50 x 50 cm eliminando arvenses con ayuda de un azadón.
+                En caso de que el suelo esté muy duro será necesario aflojarlo con un pico, de
+                no ser así, se puede hacer la excavación directamente con la pala recta.
+                Para extraer las submuestra haremos
+                una excavación de 40 x 40 x 40 cm con una ligera inclinación en las caras laterales,
+                posteriormente con una pala se extrae una rebanada de suelo de la cual se eliminarán 3
+                centímetros de la parte superior y 3 centímetros hacia los lados como se muestra en la Figura 15.
+                <br>
+                <br>
+                <figure>
+                <img src="hoyo.jpg"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 15. Excavación para obtener una submuestra.</figcaption>
+                </figure>
+                <br>
+                <br>
+                La porción restante será nuestra submuestra, misma que depositaremos en una bolsa de
+                plástico. Por último, se deberá agregar una etiqueta en la bolsa que llevará
+                los siguientes datos:
+                <br>
+                <br>
+                1. Nombre de identificación de la parcela o  lugar de extracción.<br>
+                2. Clave de Identificación de submuestra.<br>
+                3. Fecha de extracción.<br>
+                4. Observaciones.
+                <br>
+                <br>
+                <h3 id="2 sub 3">
+                    <br>
+                    <br>2.3. Preparación de la muestra compuesta</h3>
+                Posteriormente todas las submuestras son vaciadas de sus bolsas en un solo
+                sitio, de preferencia sobre una superficie lisa como una lona o un firme. Con
+                una pala se mezcla todo el material y después se extiende en una forma circular,
+                dicho circulo se divide en cuatro partes y se seleccionan solo dos partes
+                opuestas de la partición y el resto se elimina.
+                <br>
+                <br>
+                <img src="soilcuarteo.png"
+                class="center">
+                <br>
+
+                El resto de material se
+                revuelve una vez más y se extiende nuevamente para dividirlo en cuatro
+                partes y seleccionar nuevamente las dos partes opuestas y eliminar el
+                resto. Este procedimiento se repite hasta obtener una <b style="color:#FD628C">
+                muestra compuesta</b> de aproximadamente 1 kg. Este material se deposita en una bolsa
+                de plástico y se etiqueta con la siguiente información:
+                <br>
+                <br>
+                1. Nombre del interesado.<br>
+                2. Nombre del lugar de donde procede la muestra.<br>
+                3. Cultivo que se pretende sembrar.<br>
+                4. Profundidad a la que se extrajo la muestra.<br>
+                5. Fecha de extracción.<br>
+                6. Observaciones.
+                <br>
+                <br>
+                Este procedimiento se deberá seguir para cada unidad de terreno que se desea
+                cultivar. En caso de que un terreno tenga claras diferencias de vegetación y uso de suelo,
+                se deberá obtener una muestra compuesta por cada subunidad al interior.
+                En caso de que las muestras no sean enviadas inmediatamente al laboratorio, las
+                bolsas deberán guardarse abiertas en un salón fresco donde no les de el sol y que tenga
+                buena circulación
+                de aire.
+                <br>
+                <br>
+                <figure>
+                <img src="bolsas.jpg"
+                class="center" style="width:70%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig 16. Las bolsas con las muestras deberán
+                        guardarse a la sombra en un sitio fresco con buena aireación, para evitar
+                        promover cualquier tipo de actividad microbiana que pueda modificar las características de esa
+                        muestra de suelo.</figcaption>
+                </figure>
+
+                <h3 id="3 cap">
+                    <br>
+                    <br>3. EL SUELO: FORMACIÓN Y PERFIL</h3>
+                <h3 id="3 sub 1">
+                    <br>
+                    <br>3.1. Composición del suelo</h3>
+                El suelo es la parte más superficial de la corteza terrestre, con un espesor que varía, por
+                lo regular, desde unos pocos centímetros hasta dos o tres metros. Es en el suelo donde los
+                reinos <b> vegetal</b> y <b>animal</b> establecen una relación íntima con
+                el reino <b>mineral</b>.
+                <br>
+                <br>
+                <img src="https://i0.wp.com/organizadoresgraficos.net/wp-content/uploads/2022/02/organizador-grafico-composicion-suelo.jpg?w=800&ssl=1"
+                class="center" style="width:40%">
+                <br>
+                <br>
+                Los vegetales toman del suelo <b>agua</b> y <b>nutrientes</b> y los
+                animales se comen a las plantas para obtener los elementos que necesitan.
+                Los residuos de animales y vegetales vuelven al suelo, en donde se descomponen por la acción
+                de microorganismos para dar de nuevo los productos originales.
+                <br>
+                <br>
+                <img src="img01foodChain.png"
+                class="center">
+                <br>
+                <br>
+                Las partículas sólidas del suelo, formadas por minerales y por materia orgánica, dejan entre sí
+                unos espacios vacíos o poros llenos de aire y de agua. Es deseable que los poros ocupen
+                aproximadamente la mitad del volumen total del suelo y que el contenido máximo de agua sea el
+                doble del volumen ocupado por el aire.
+                <br>
+                <br>
+                <img src="img02porosity.png"
+                class="center">
+                <br>
+                El oxígeno es el principal componente de la materia mineral, con un peso que suele sobrepasar la
+                mitad del total. Otros elementos abundantes son: aluminio, hierro, potasio, calcio, magnesio y
+                sodio. Todos los demás elementos que componen la parte mineral no sobrepasan el 1% del peso
+                total.
+                <br>
+                <br>
+                <img src="img03soilElements.png"
+                class="center">
+                <br>
+                La materia orgánica del suelo puede ser viva o muerta. La parte muerta está formada por restos
+                de animales y de vegetales  más o menos descompuestos por los microorganismos del suelo, que
+                constituyen la parte viva del suelo. Cuando la materia orgánica se descompone por completo
+                se liberan los elementos minerales contenidos en ella, quedando nuevamente a disposición de
+                las plantas.
+            </section>
+
+            <section>
+            <h3 id = "3 sub 2">
+                <br>
+                <br>3.2. La formación del suelo</h3>
+                El suelo se origina a partir de la <i>meteorización</i> de las rocas, proceso mediante el cual
+                son degradadas y descompuestas por diferentes <b>agentes</b> físicos, químicos y biológicos.
+                Sobre la roca actúan en primer lugar los agentes físicos, especialmente los cambios de
+                temperatura, la alternancia de humedad y sequedad y el hielo, que tienden a disgregar sus
+                componentes, quedando como resultado el <i>material original o parental</i> del suelo, formado
+                por unos granitos o partículas de roca muy pequeños que no han sufrido aún alteraciones internas
+                con respecto a la roca basal
+                <br>
+                <br>
+                El material parental es alterado posteriormente por agentes químicos y biológicos, además de
+                los procesos físicos que continúan disgregando las partículas. La transformación de este
+                material parental es un proceso muy lento que va perfilando progresivamente el material
+                del suelo. Más tarde, los materiales que ya constituyen el suelo sufren otras transformaciones
+                que dan lugar a un suelo más desarrollado y más maduro. Observa el siguiente video.
+                <br>
+                <br>
+                <iframe
+                    width="620px" height="500px"
+                    src = "https://www.youtube.com/embed/GEZX6UoVRuQ?start=6&end=71" class="center">
+                </iframe>
+            </section>
+
+            <section>
+                <h3 id="3 sub 3">
+                    <br>
+                    <br>3.3. Características físicas del suelo</h3>
+                La textura, la estructura, la porosidad, la densidad, la consistencia, el color y la
+                temperatura son las características físicas que influyen más en el uso del suelo para
+                los cultivos.
+                <br>
+                <br>
+                <h4 id="3 sub 3 sub 1">
+                    <br>
+                    <br>3.3.1. La textura</h4>
+                Las partículas minerales del suelo cuyo tamaño es inferior a 2 milímetros constituyen
+                la <i>tierra fina</i>. Atendiendo exclusivamente al tamaño de las partículas de la
+                tierra fina, éstas se clasifican de la forma siguiente:
+                <br>
+                <br>
+                <p style="padding-left:50px;padding-right:50px;">
+                <i>Arena</i>: partículas cuyo tamaño está comprendido entre 2 y 0.05 milímetros.
+                Se llaman arenas gruesas las comprendidas entre 2 y 0.2 milímetros y arenas finas las
+                comprendidas entre 0.2 y 0.05 milímetros.
+                    <br>
+                    <br>
+                <i>Limo</i>: partículas cuyo tamaño está comprendido entre 0.05 y 0.002 milímetros.
+                    <br>
+                    <br>
+                <i>Arcilla</i>: partículas con tamaño inferior a 0.002 milímetros.
+                </p>
+                    <br>
+                <br>
+                Se denomina <i style="color:white;">textura</i> del suelo a la proporción relativa de arena, limo y arcilla
+                que posee. Según la textura, los suelos se clasifican de la siguiente forma:
+                <br>
+                <br>
+                <p style="padding-left:50px;padding-right:50px;">
+                    <i style="color:white;">Textura fina o arcillosa</i>: en estos suelos predomina la arcilla. Son
+                    adherentes, poco aireados, muy difíciles de labrar y retienen gran cantidad de agua.
+                    <br>
+                    <br>
+                    <i style="color:white;">textura arenosa</i>: predomina la arena. Son suelos poco cohesivos, de fácil
+                    labranza, con buena aireación para el desarrollo de las raíces y poco poder
+                    retentivo de la humedad.
+                    <br>
+                    <br>
+                    <i style="color:white;">textura limosa</i>: tienen un contenido alto de limo. Son suelos poco estables
+                    y, por tanto, sensibles a los agentes de degradación.
+                    <br>
+                    <br>
+                    <i style="color:white;">Textura franca</i>: estos suelos contienen una mezcla de arena, limo y arcilla
+                    en proporción equilibrada, de tal modo que presentan las buenas cualidades de cada
+                    una de las tres fracciones. Los suelos francos contienen menos proporción de arcilla
+                    que de arena y de limo, ya que las propiedades de la primera se expresan con mayor
+                    intensidad que las otras dos porciones.
+                </p>
+                    <br>
+                El contenido de materia orgánica no influye en la denominación de la textura, salvo
+                que existan cantidades superiores al 20 %, en cuyo caso el suelo se llama
+                <i>suelo orgánico</i>.
+
+                <h5 style="font-style:italic;text-indent:50px;" id="3 sub 3 sub 1 sub 1">
+                    <br>
+                    <br>3.3.1.1. Determinación rápida de la textura</h5>
+
+                La textura se determina en laboratorio, mediante análisis granulométrico. Cuando se quiere una
+                apreciación rápida y aproximada se procede de la siguiente forma: se coge un poco de tierra
+                y se amasa con un poco de agua hasta que adquiere una consistencia semejante a la del mortero
+                de cemento que se utiliza para unir ladrillos. Se coloca entre las manos un poco de esta tierra,
+                se intenta formar con ella un cordón delgado y se observa su comportamiento:
+                <br>
+                <br>
+                <p style="padding-left:50px">
+                    La textura es arenosa cuando el cordón se rompe antes de conseguir formar uno de 3
+                    milímetros de ancho.
+                    <br>
+                    <br>
+                    La textura es arcillosa cuando se consigue formar un cordón de 3 milímetros de diámetro y
+                    10 centímetros de longitud, y con el se puede construir un anillo sin que la tierra se
+                    resquebraje.
+                    <br>
+                    <br>
+                    La textura es franca si el cordón se rompe cuando se intenta formar uno de un milímetro de
+                    diámetro, pero no se rompe cuando se hace uno de tres milímetros de diámetro. En el
+                    siguiente video vemos un ejemplo de una prueba rápida de textura de suelo para determinar
+                    el contenido de arena.
+                    <br>
+                    <br>
+                    <iframe
+                        width="620px" height="500px"
+                        src = "https://www.youtube.com/embed/BE1_bN3nkok?start=317&end=560" class="center">
+                    </iframe>
+                </p>
+
+                <h4 id="3 sub 3 sub 2">
+                    <br>
+                    <br>3.3.2. Estructura del suelo</h4>
+                Recibe el nombre de estructura del suelo la ordenación de sus partículas minerales
+                individuales (arena, limo y arcilla) para formar otras unidades de mayor tamaño, que
+                son los <i>agregados</i>. Estos agregados están formados por una agrupación de partículas
+                de arena, limo y arcilla enlazadas o cementadas por materia orgánica y compuestos
+                minerales.
+                <br>
+                <br>
+                Un trozo de suelo se fragmenta con la mano, sin gran esfuerzo, en trozos más pequeños.
+                Estos, a su vez, se dividen en otros más pequeños y así sucesivamente, hasta que se
+                llega a unos trozos muy resistentes que ya no se fragmentan más que con un esfuerzo
+                mayor. Estos últimos elementos son los agregados, que se dan y persisten en el suelo
+                de una forma natural, a diferencia de otros elementos causados por alteraciones
+                artificiales, como son los terrones, producidos por labores efectuadas bajo ciertas
+                condiciones.
+
+                <h5 id="3 sub 3 sub 2 sub 1">
+                    <br>
+                    <br>Tipos de estructura</h5>
+                Según la forma y ordenación de los agregados se distinguen los siguientes tipos de
+                estructura:
+                <br>
+                <br>
+                <i style="color:white;">Laminar</i>: los agregados tienen una forma aplanada con la
+                dimensión horizontal de mayor tamaño que la vertical.<br>
+                <i style="color:white;">Poliédrica</i>: los agregados tienen forma poliédrica, con las
+                dimensiones horizontal y vertical aproximadamente del mismo tamaño, encajando entre si
+                unos con otros.<br>
+                <i style="color:white;">Prismática</i>: los agregados tienen todas las caras planas en
+                forma de prisma, con la altura de mayor tamaño que la anchura.<br>
+                <i style="color:white;">Columnar</i>: esta estructura es semejante a la anterior, pero
+                los prismas tienen las bases redondeadas. Por lo general esta estructura es consecuencia
+                de una edad avanzada del suelo o de la presencia de sodio en la disolución del suelo.<br>
+                <i style="color:white;">Granular</i>: los agregados son esferas imperfectas, cuyo tamaño
+                puede oscilar de uno a 10 milímetros de grosor. Esta estructura es muy ventajosa para los
+                cultivos, ya que al no ajustar entre sí, las esferas dejan entre ellas unos amplios
+                espacios por donde pueden circular el aire y el agua. La estructura <i>migajosa</i> es un
+                caso particular de la estructura granular que tiene los agregaos muy porosos.
+                <br>
+                <br>
+                Con relación al tamaño de los agregados, la estructura puede ser: fina, media o gruesa. En
+                cuanto al grado de desarrollo de los agregados la estructura puede ser:
+                <br>
+                <br>
+                <i style="color:white;">Fuerte</i>: los agregados, que ocupan la mayor parte del suelo, se
+                pueden manejar con facilidad.<br>
+                <i style="color:white;">Moderada</i>: con agregados relativamente bien formados, muchos de
+                los cuales se pueden separar con la mano.<br>
+                <i style="color:white;">Débil</i>: los agregados se distinguen únicamente cuando el suelo
+                está húmedo y apenas se pueden separar con la mano.<br>
+                <i style="color:white;">Sin estructura</i>: los agregados no se distinguen, debido a la
+                falta de aglomeración (estructura de grano suelto), como ocurre con los suelos arenosos,
+                o a la formación de una masa cohesiva, sin líneas de fractura definidas (<i>estructura masiva</i>).
+                <br>
+                <br>
+                <img src="img04estructura.png"
+                class="center">
+
+                <h5 id="3 sub 3 sub 2 sub 2">
+                    <br>
+                    <br>Importancia de la estructura</h5>
+                La estructura del suelo, tanto a nivel superficial como a nivel de subsuelo, tiene una
+                gran importancia para el desarrollo de los cultivos. A nivel superficial, la estructura
+                granular, especialmente la estructura migajosa, permite una buena circulación del aire
+                y del agua a través del suelo. El tamaño y la consistencia de los agregados tienen un
+                efecto muy marcado sobre la velocidad del agua procedente de la lluvia que no puede
+                penetrar en el suelo y discurre por la superficie, pudiendo provocar erosión. Uno de los
+                objetivos básicos de las labores consiste en la preparación de una buena cama de
+                siembra, con unos agregados pequeños y porosos que suministran humedad y oxígenos a las
+                raíces de las plántulas.
+                <br>
+                <br>
+                La penetración de las raíces en profundidad puede estar limitada por la falta de
+                oxígeno que impida la respiración. Un alto contenido de arcilla en el subsuelo y la
+                ausencia de poros grandes impiden que el agua retenida en las capas superficiales pase
+                a capas más profundas, con lo cual el suelo permanece saturado de agua durante muchos
+                días después de las lluvias. Las plantas perennes de raíz profunda mejoran la estructura
+                de los subsuelos arcillosos, pues cuando las raíces se descomponen dejan una red de
+                canales temporales entre los agregados.
+
+                <h4 id="3 sub 3 sub 3">
+                    <br>
+                    <br>3.3.3. La porosidad</h4>
+                Los poros del suelo son los espacios comprendidos entre las partículas sólidad. Por lo
+                general la mitad del volumen total del suelo está ocupado por los sólidos y la otra
+                mitad está ocupado por los poros. Los suelos de textura arcillosa tienen un gran número
+                de poros, que son pequeños y con muchos estrechamientos, mientras que los suelos de
+                textura arenosa tienen un número relativamente pequeño de poros, que son grandes y
+                forman canales continuos. Por lo general, los suelos arenosos tienen un volumen de poros
+                menor que los suelos arcillosos.
+                <br>
+                <br>
+                Los poros están ocupados por aire y por agua en proporciones que dependen del nivel
+                de humedad del suelo. Los poros pequelos están ocupados por agua y los poros grandes
+                por aire, salvo cuando el suelo está saturado de agua, en cuyo caso está ocupado todo
+                el espacio poroso. Los poros de tamaño intermedio están ocupados alternativamente por
+                aire o por agua, según varía el contenido de humedad del suelo.
+                <br>
+                <br>
+                El agua drena por gravedad en los poros con diámetro superior a 30 micras. Los suelos
+                que tienen la mayoría de sus poros con diámetro inferior a esa cifra retienen una gran
+                cantidad de agua y, por tanto, drenan y se airean con dificultad.
+                <br>
+                <br>
+                <img src="img05porosidad.png"
+                class="center">
+                <br>
+                En lo referente al crecimiento de las plantas, el tamaño de los poros es mucho más
+                importante que su volumen total. Los suelos arcillosos, con poros pequeños y numerosos,
+                retienen una gran cantidad de agua y exigen cuidados para mantener una aireación
+                adecuada. En cambio los suelos arenosos que tienen poros grandes, retienen poca
+                cantidad de agua y no presentan problemas de aireación. Los suelos más adecuados
+                para el desarrollo de los cultivos son aquellos de textura media, con equilibrio
+                entre poros grandes (que permiten una buena aireación) y poros pequeños (que retienen
+                el agua).
+
+                <h4 id="3 sub 3 sub 4">
+                    <br>
+                    <br>3.3.4. Densidad del suelo</h4>
+                Hay que considerar entre densidad aparente y densidad real. La <i style="color:white">densidad aparente</i>
+                se refiere a la densidad de una muestra de tierra tal como es, incluyendo el volumen
+                ocupado por los poros. Para determinarla se divide el peso de un determinado volumen
+                de tierra secada a estufa por ese volumen de suelo (que es igual al peso del mismo
+                volumen de agua) y se expresa el resultado en gramos por centímetro cúbico (g/cm<sup>3</sup>).
+                <br>
+                <br>
+                La densidad aparente de los suelos varía según su grado de <i>compacidad</i>. En suelos
+                minerales normales los valores más frecuentes de la densidad varían de 1.2 a 1.4
+                g/cm<sup>3</sup>, correspondiendo la primera cifra a los suelos arcillosos y, la
+                última, a los suelos arenosos. La materia orgánica hace desender la densidad aparente
+                por dos motivos: es más ligera que la materia mineral e incrementa la porosidad.
+                <br>
+                <br>
+                La <i style="color:white">densidad real</i> es la densidad de las partículas sólidas del
+                suelo. Se determina dividiendo el peso del suelo secado a estufa por el volumen que
+                ocupan los sólidos; se excluyen, por tanto, el peso del agua y el volumen de poros. La
+                densidad real de los suelos minerales más comunes varía de 2.5 a 2.7 g/cm<sup>3</sup>.
+
+                <h4 id="3 sub 3 sub 5">
+                    <br>
+                    <br>3.3.5. La consistencia del suelo</h4>
+                Se llama <i>consistencia del suelo</i> a la cohesión que mantiene unidas a sus partículas,
+                lo que determina la resistencia que ofrece ese suelo a la penetración de las raíces y
+                el mayor o menor esfuerzo que se necesita para trabajarlo. Según el contenido de agua en
+                el suelo, la consistencia se expresa en los términos siguientes:
+                <br>
+                <br>
+                <i style="color:white;">Dureza</i>: es la resistencia que opone el suelo seco a
+                romperse o fragmentarse cuando se frota con los dedos.<br>
+                <i style="color:white;">Firmeza</i>: es la resistencia que opone el suelo húmedo a
+                disgregarse por efecto del frotamiento.<br>
+                <i style="color:white;">Plasticidad</i>: es la capacidad que tiene un suelo saturado de
+                agua para adquirir y mantener una forma determinada cuando se comprime.<br>
+                <i style="color:white;">Pegajosidad</i>: es la capacidad de un suelo saturado de agua
+                para adherirse a otros objetos.
+                <br>
+                <br>
+                La consistencia de un suelo, expresado en sus distintos términos, está relacionada con
+                su contenido de arcilla. A medida que aumenta su proporción de arcilla se incrementa su
+                dureza, firmeza, plasticidad o pegajosidad, respectivamente. Hay que tener presente que
+                la plasticidad y la pegajosidad son cualidades de suelos saturados de agua.
+
+                <h4 id="3 sub 3 sub 6">
+                    <br>
+                    <br>3.3.6. Color del suelo</h4>
+                El color del suelo está relacionado con los minerales que lo componen y con su contenido
+                de agua y de materia orgánica, lo que determina algunas de sus propiedades físicas y
+                químicas.
+                <br>
+                <br>
+                En primer lugar hay que advertir que para la apreciación del color, el suelo debe estar seco,
+                ya que en igualdad de otras condiciones el suelo húmedo tiene un color más oscuro que
+                el suelo seco.
+                <br>
+                <br>
+                Por lo general, las capas profundas del suelo tienen el mismo color que los
+                minerales que lo integran, mientras que el color de las capas superficiales viene
+                determinado, sobre todo, por el contenido de humus y de minerales de hierro, que dan su
+                propio color a las partículas minerales del suelo, a las cuales recubren de un modo
+                semejante a como la pintura recubre a los objetos pintados.
+                <br>
+                <br>
+                El <i style="color:white;">humus</i> que es la materia orgánica muy descompuesta, tiene
+                color negro, por lo que el color más o menos oscuro del suelo indica un mayor o menor
+                contenido de humus. Este material recubre de tal modo partículas minerales del suelo que
+                basta un contenido de 5% de humus para que el suelo adquiera un color negro cuando está
+                húmedo y gris oscuro o pardo grisáceo cuando está seco.
+                <br>
+                <br>
+                La mayoría de los suelos de climas cálidos, que suelen tener un bajo contenido de humus
+                debido a la rápida descomposición de la materia orgánica, tienen suficiente cantidad de
+                compuestos de hierro para que estos influyan decisivamente en su coloración. El hierro
+                presente en el suelo se combina con el oxígeno y con el agua del suelo, dando lugar a
+                compuestos de distintos colores que van desde los rojizos con buena aireación hasta suelos
+                en tonos azules y verdes con mucha retención de agua, estos tonos y colores dependerán
+                en parte <i>de la aireación y capacidad de drenaje</i> de los suelos.
+                <br>
+                <br>
+                La caliza actúa sobre el color del suelo de forma opuesta a como lo hace la materia orgánica,
+                es decir, que aclara los colores. Cuando hay suficiente cantidad de caliza, el color del
+                suelo es grisáceo claro o blanquecino.
+                <br>
+                <br>
+                <img src="img06color.png"
+                class="center">
+
+                <h4 id="3 sub 3 sub 7">
+                    <br>
+                    <br>3.3.7. La temperatura del suelo</h4>
+                La temperatura del suelo depende fundamentalmente de la intensidad de la radiación solar
+                recibida que, a su vez, está condicionada por varios factores:
+                <br>
+                <br>
+                <i>&emsp;El ángulo de incidencia de los rayos solares<br>
+                &emsp;La nubosidad<br>
+                &emsp;El color del suelo<br>
+                &emsp;El contenido de agua<br>
+                &emsp;La cubierta vegetal</i>
+                <br>
+                <br>
+                La temperatura del suelo influye sobre la germinación de las semillas, el desarrollo y
+                funcionamiento de las raíces y la actividad de la microflora.
+                <br>
+                <br>
+                Por debajo de la capa superficial, las variaciones de la temperatura del suelo ocurren con
+                más retraso cuanto mayor es la profundidad. A unos quince centímetros de profundidad las
+                temperaturas máxima y mínima diarias se dan con un retraso de cuatro horas, mientras que
+                las variaciones estacionales, experimentan un retraso de varias semanas con respecto a
+                las del aire.
+                <br>
+                <br>
+                A la llegada del invierno algunos cultivos pueden sufrir deficiencias nutritivas (a menos que
+                se intervenga oportunamente en el abonado), debido a que la reiniciación vegetativa de
+                algunos cultivos está regida por la temperatura del aire, mientras que la reiniciación
+                de la actividad de los microorganismos está regida por la temperatura del suelo. Las
+                bacterias nitrificantes, responsables del paso del nitrógeno amoniacal a nitrógeno
+                nítrico, manifiestan su actividad óptima cuando la temperatura del suelo está comprendida
+                entre 18 y 30 °C.
+
+                <h3 id="4 cap">
+                    <br>
+                    <br>4. PROPIEDADES FÍSICO-QUÍMICAS DE LOS SUELOS</h3>
+
+                Un mineral es un compuesto sólido formado por diversos elementos químicos. Nueve de los
+                cuales representan el 99% de los átomos e iones presentes en la corteza terrestre: oxígeno (60%),
+                silicio (20%), aluminio (6%), hidrógeno (3%), sodio (3%), calcio (2%), hierro (2%), magnesio (2%)
+                y potasio (1%).
+                <br>
+                <br>
+                Los minerales que forman las rocas se llaman <i>minerales primarios</i>. Cuando estos minerales
+                primarios se alteran por la acción de diferentes agentes físicos, químicos y biológicos se
+                transforman en <i>minerales secundarios</i>, entre los cuales se encuentran las arcillas y
+                diversos óxidos e hidróxidos que, debido a sus propiedades físico-químicas, constituyen una de
+                las fracciones más importantes del suelo.
+                <br>
+                <br>
+                Al meteorizarse los minerales del suelo, proporcionana una parte importante de los nutrientes
+                vegetales. En ocasiones las exigencias nutritivas de las plantas se cubren con los nutrientes
+                procedentes de la meteorización de los minerales, mientras que en otros casos estas aportaciones
+                no son suficientes y hay que recurrir a otras aportaciones suplementarias.
+                <br>
+                <br>
+                Los átomos de los minerales están dispuestos en una ordenación característica que conforman la
+                estructura de ese mineral. Las unidades estructurales básicas de mayor interés son: el
+                tetraedro, el octaedro y el cubo.
+
+                <h3 id="4 sub 1">
+                    <br>
+                    <br>4.1. El complejo coloidal</h3>
+
+                Las partículas del suelo cuyo tamaño es inferior a dos micras constituyen el
+                <i>complejo coloidal</i>, responsable de la mayor parte de la actividad físico-química que se
+                desarrolla en el suelo. El complejo coloidal está constituido, sobre todo, por la arcilla
+                y el humus, por cuyo motivo también se llama <i>complejo arcilloso-húmico</i>.
+                <br>
+                <br>
+                Las partículas del suelo cuyo tamaño es inferior a dos micras constituyen el <i>complejo
+                coloidal</i>, responsable de la mayor parte de la actividad físico-química que se desarrolla
+                en el suelo. El <i>complejo coloidal</i> está constituido, sobre todo, por la arcilla y
+                el humus, por cuyo motivo también se llama <i>complejo arcilloso-húmico</i>.
+                <br>
+                <br>
+                Algunos minerales del suelo pueden ser clasificados como arcilla desde el punto de vista de
+                su tamaño, pero no son minerales arcillosos. En cambio, algunas partículas de arcilla
+                mineral pueden alcanzar mayor tamaño que el correspondiente a la fracción arcilla. La arcilla
+                que se considera a efectos de propiedades físico-químicas del suelo incluye solamente a
+                los minerales de arcilla.
+                <br>
+                <br>
+                El humus es una materia orgánica muy estable, formada por moléculas orgánicas complejas de
+                tamaño coloidal, cuyos componentes más característicos son los ácidos húmico y fúlvico. El
+                humus se comporta como ácido débil, por lo que sus partículas tienen carga negativa. Por su
+                gran superficie y la carga negativa distribuida a lo largo de la misma, el humus tiene una
+                gran actividad físico-química.
+                <br>
+                <br>
+                En los climas cálidos y húmedos, con una meteorización muy rápida y un lavado muy intenso,
+                desaparecen de las arcillas una buena parte del sílice y del aluminio, quedando unos materiales
+                muy ricos con diversos óxidos e hidróxidos dotados de una cierta actividad físico-química y
+                que no se expanden.
+
+                <h3 id="4 sub 2">
+                    <br>
+                    <br>4.2. Las arcillas</h3>
+
+                Las arcillas son silicatos alumínicos, cuya estructura se forma a base de oxígeno, silicio y
+                aluminio. El silicio y el aluminio pueden ser sustituidos por otros cationes de menor valencia,
+                lo que origina un déficit de carga positiva y la partícula de arcilla adquiere carga negativa.
+                <br>
+                <br>
+                Las arcillas pueden ser cristalinas o amorfas, según que los átomos de su estructura estén o no
+                ordenados en forma repetitiva.
+
+                <h4 id="4 sub 2 sub 1">
+                    <br>
+                    <br>4.2.1. Arcillas cristalinas</h4>
+                Las arcillas cristalinas tienen una estructura laminar u hojosa (por cuyo motivo se llaman
+                filosilicatos). Según la disposición de las láminas <i>existirán arcillas
+                más expandibles que otras debido a la facilidad o dificultad de penetración del agua</i> entre
+                las capas laminares.
+
+                <h4 id="4 sub 2 sub 2">
+                    <br>
+                    <br>4.2.2. Arcillas amorfas</h4>
+                Son aquellas que no tienen los cristales orientados de forma repetitiva. Sus propiedades son
+                extrañas, ya que presentan la superficie activa con cargas negativas y positivas.
+
+                <h3 id="4 sub 3">
+                    <br>
+                    <br>4.3. La adsorción de cationes</h3>
+
+                Un ión es un átomo o un grupo de átomos que ha perdido o ganado electrones, con lo cual el
+                ión adquiere carga eléctrica. Los iones con carga positiva se llaman <i>cationes</i> y los
+                iones con carga negativa se llaman <i>aniones</i>.
+                <br>
+                <br>
+                Algunos compuestos químicos cuando están disueltos en agua se disocian en iones; por ejemplo,
+                el nitrato sódico (NO<sub>3</sub>Na) se disocia en aniones nitrato (NO<sub>3</sub><sup>-</sup>)
+                y cationes sodio (Na<sup>+</sup>). Los elementos nustritivos se disuelven en el agua del
+                suelo, disociándose en iones, en cuya forma son absorbidos por las plantas, aunque en algunos
+                casos también puede haber absorción en forma molecular. El agua del suelo, junto con los
+                elementos nutritivos disueltos, recibe el nombre de <i>disolución del suelo</i> o <i>
+                solución del suelo</i>.
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;"
+           class="center2">
+
+
+                    <caption style = "caption-side:top;font-size:20px;font-weight:bold;color:grey;background-color:lightgrey;"
+                    <br><br>
+                    PRINCIPALES IONES ABSORBIDOS DEL SUELO POR LAS PLANTAS
+                PARA ABASTECERSE DE ELEMENTOS ESENCIALES
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> Elementos </th> <th> Iones</th></tr>
+                    </thead>
+                        <tr style="text-align:left;color:grey;">  <td> Carbono (C) </td> <td align="center">CO<sub>3</sub><sup>2-</sup> (carbonato), CO<sub>2</sub>H<sup>-</sup> (bicarbonato).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Oxígeno (O) </td> <td align="center">Oxígeno unido a otros elementos.</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Hidrógeno (H) </td> <td align="center">H<sup>+</sup> (hidrógeno), OH<sup>-</sup> (hidróxido).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Nitrógeno (N) </td> <td align="center">NH<sub>4</sub><sup>+</sup> (amonio), NO<sub>3</sub><sup>-</sup> (nitrato), NO<sub>2</sub><sup>-</sup> (nitrito).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Fósforo (P) </td> <td align="center">PO<sub>4</sub>H<sup>2-</sup>, PO<sub>4</sub>H<sub>2</sub><sup>-</sup> (fosfato).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Potasio (K) </td> <td align="center">K<sup>+</sup> (potasio).</td></tr>
+                    |   <tr style="text-align:left;color:grey;">  <td> Calcio (Ca) </td> <td align="center">Ca<sup>2+</sup> (calcio).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Azufre (S) </td> <td align="center">SO<sub>4</sub><sup>2-</sup> (sulfato), SO<sub>3</sub><sup>2-</sup> (sulfito).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Magnesio (Mg) </td> <td align="center">Mg<sup>2+</sup> (magnesio).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Hierro (Fe) </td> <td align="center">Fe<sup>2+</sup> (ferroso), Fe<sup>3+</sup> (férrico).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Boro (Bo) </td> <td align="center">B<sub>4</sub>O<sub>7</sub><sup>2-</sup>, BO<sub>3</sub>H<sup>2-</sup>, BO<sub>3</sub>H<sub>2</sub><sup>-</sup> (borato).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Manganeso (Mn) </td> <td align="center">Mn<sup>2+</sup> (manganoso), Mn<sup>4+</sup> (mangánico).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Cobre (Cu) </td> <td align="center">Cu<sup>2+</sup> (cobre).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Zinc (Zn) </td> <td align="center">Zn<sup>2+</sup> (zinc).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Molibdeno (Mo) </td> <td align="center">MoO<sub>4</sub><sup>2-</sup> (molibdato).</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Cloro (Cl) </td> <td align="center">Cl<sup>-</sup> (cloruro).</td></tr>
+                </table>
+                <br>
+                <br>
+                Las partículas coloidales del suelo tienen carga negativa, por lo que atraen y retienen a los
+                iones de carga positiva (cationes) contenidos en la solución del suelo. La <i>adsorción</i> se
+                refiere a la retención de los cationes sobre la superficie de esas partículas coloidales,
+                mientras que la <i>absorción</i> significa la penetración de los cationes en su interior. Los
+                cationes adsorbidos están en un intercambio continuo y rápido con los cationes contenidos en
+                la solución del suelo, mientras que los cationes absorbidos quedan inmovilizados formando parte
+                de la estructura de la arcilla, siendo liberados cuando se produce la descomposición de
+                la misma.
+                <br>
+                <br>
+                En la mayor parte de los suelos el ión de calcio representa la mayor parte de los cationes
+                adsorbidos, siguiendo a continuación los iones de magnesio, potasio, sodio y amonio.
+
+                <h3 id="4 sub 4">
+                    <br>
+                    <br>4.4. Intercambio de cationes</h3>
+
+                Una partícula coloidal, mineral u orgánica, está rodeada por una película de miles
+                de cationes adsorbidos. Estos cationes adsorbidos no son removidos por el agua de
+                lavado, pero pueden ser reemplazados por otros cationes contenidos en la solución del
+                suelo. Por ejemplo, si una partícula coloidal que tiene adsorbidos, entre otros,
+                iones de hidrógeno (H<sup>+</sup>) y también iones de calcio (Ca<sup>2+</sup>) se pone
+                en contacto con una solución que contiene iones de potasio (K<sup>+</sup>), estos
+                últimos sustituyen a los anteriores, quedando adsorbidos los iones de potasio y
+                liberados los iones de calcio y de hidrógeno, que pasan a la solución del suelo. El
+                intercambio se produce de tal forma que un catión monovalente se intercambia con
+                otro monovalente, uno divalente reemplaza a dos monovalentes, y así sucesivamente.
+                <br>
+                <br>
+                Todos los cationes adsorbidos pueden ser intercambiados por otros contenidos en la
+                solución del suelo, aunque la mayor o menor facilidad de intercambio viene condicionada
+                por diversos factores característicos de la partícula coloidal, la valencia de los
+                cationes, la concentración de los mismos en la solución del suelo, etc.
+                <br>
+                <br>
+                El cambio de cationes entre el complejo y la solución del suelo puede hacerse entre
+                cationes de la misma o de distinta clase. Por ejemplo, cuando se incorpora al suelo
+                un abono potásico, al disolverse este abono en el agua se incrementa el número de
+                cationes de potasio en la solución del suelo. Muchos cationes de potasio reemplazan
+                a cationes de calcio adsorbidos, los cuales pasan a la solución. Cuando la planta
+                absorbe cationes de potasio de la solución, otros cationes de potasio pasan del complejo
+                a la solución, con el fin de mantener un equilibrio entre el número de cationes
+                contenidos en el complejo y en la solución.
+                <br>
+                <br>
+                Es importante resaltar que para que el intercambio de cationes se realice plenamente
+                es necesario que el número de cationes contenidos en la solución y en el complejo
+                alcance un cierto nivel. Por eso, en tierras muy empobrecidas es necesario hacer
+                inicialmente aportaciones importantes de fertilizantes cuyos iones puedan ser adsorbidos
+                por el complejo, con el fin de que las aportaciones posteriores, más modestas, sean
+                más efectivas.
+                <br>
+                <br>
+                La <text style="font-weight:bold;font-style:italic">Capacidad de Intercambio de Cationes</text>
+                (CIC) es la suma total de cationes adsorbidos y que pueden ser intercambiados por otros cationes
+                de la solución del suelo. El número de lugares de adsorción o de intercambio no varía en
+                cada muestra de suelo y en cambio si que varía el peso de los cationes adsorbidos, por
+                tener cada uno de ellos una masa diferente. Por consiguiente, nos intersa medir la capacidad
+                de adsorción en una unidad que exprese, de alguna forma, el número de lugares de adsorción.
+                Ahora bien, este número de lugares de adsorción es extremadamente elevado, ya que, por ejemplo,
+                un gramo de H<sup>+</sup> puede ocupar 6 x 10 <sup>23</sup> lugares de adsorción. En vez
+                de utilizar estos números tan grandes conviene utilizar otros más manejables y comprensibles,
+                por cuyo motivo la CIC se expresa en <i>miliequivalentes</i> por cada 100 gramos de suelo seco
+                (meq/100 g), lo que permite conocer con facilidad el peso de cationes intercambiables en un
+                cierto volumen de suelo.
+                <br>
+                <br>
+                &#128269;&#128073; Mira el siguiente <a style="color:yellow;" href="https://youtu.be/rNcEAIh9RP8" target="_blank">VIDEO</a> sobre la Capacidad de
+                Intercambio de Cationes.
+                <br>
+                <br>
+                Las tablas que siguen a continuación indican respectivamente el peso del equivalente de algunos
+                iones y la CIC de algunos coloides y suelos.
+                <br>
+                <br>
+                <br>
+
+                <br>
+                <table border=0
+           style="background-color:lightgrey;"
+           class="center2">
+
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
 <br>
+PESO EN MILIGRAMOS DEL MILIEQUIVALENTE QUÍMICO
+                DE ALGUNOS IONES
+                        <br>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> Cationes </th> <th>Peso de un<br>miliequivalente (mg)</th><th>Aniones</th><th>Peso de un<br>miliequivalente (mg)</th></tr></thead>
+                        <tr style="text-align:left;color:grey;">  <td> Ca<sup>2+</sup></td><td align="center">20.04</td><td>SO<sub>4</sub><sup>2-</sup></td><td>48.02</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Mg<sup>2+</sup></td><td align="center">12.15</td><td>CO<sub>3</sub><sup>2-</sup></td><td>30</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> K<sup>+</sup></td><td align="center">39.10</td><td>CO<sub>3</sub>H<sup>-</sup></td><td>61.01</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Na<sup>+</sup></td><td align="center">22.99</td><td>Cl<td>35.45</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> H<sup>+</sup></td><td align="center">1</td><td>NO<sub>3</sub><sup>-</sup></td><td>62</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> NH<sub>4</sub><sup>+</sup></td><td align="center">17.03</td><td>PO<sub>4</sub>H<sup>2-</sup></td><td>95.98</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> _</td><td align="center">_</td><td>PO<sub>4</sub>H<sub>2</sub><sup>-</sup></td><td>96.98</td></tr>
+                 </table>
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;"
+           class="center2">
+
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+        <br>
+        CAPACIDAD DE INTERCAMBIO DE LOS COLOIDES DEL SUELO
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> Cationes </th> <th>Peso de un<br>miliequivalente (mg)</th></tr></thead>
+                        <tr style="text-align:left;color:grey;">  <td> Arenoso</td><td align="center">1 a 5</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Franco-arenoso</td><td align="center">5 a 10</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Franco</td><td align="center">5 a 15</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Franco-limoso</td><td align="center">5 a 15</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Franco-arcilloso</td><td align="center">15 a 30</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Arcilloso</td><td align="center">50 (promedio)</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Humus</td><td align="center">100 a 300</td></tr>
+                  </table>
+                <br>
+                <br>
+                <text style="background-color:yellow;color:red;padding:0.3%;">EJEMPLO</text><br>
+                <section style="background-color:#DAF7A6;color:grey;padding:1%;font-weight:normal">
+                Calcular la CIC de un suelo que contiene el 2% de humus y el 26% de arcilla.
+                <br>
+                <br>
+                Solución:
+                <br>
+                Por cada 100 gramos de suelo seco:
+                <br>
+                <br>
+
+                <table border=0
+           style="background-color:lightgrey;"
+           class="center2">
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> _ </th> <th>Gramos</th><th>Meq/100g</th><th>Meq totales</th></tr></thead>
+                        <tr style="text-align:left;color:grey;">  <td> Humus</td><td align="center">2</td><td> 2</td><td> 2 x 2 = 4</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> Arcilla</td><td align="center">26</td><td> 0.5</td><td> 26 x 0.5 = 13</td></tr>
+                    <tr style="text-align:left;color:grey;">  <td> </td><td align="center"></td><td> TOTAL</td><td> 17</td></tr>
+                  </table>
+
+                    <br>
+                Decimos entonces que la CIC es de 17 meq por 100 gramos de suelo.
+                    </section>
+                <br>
+                <br>
+                <text style="background-color:yellow;color:red;padding:0.3%;">EJEMPLO</text>
+                <section style="background-color:#DAF7A6;color:grey;padding:1%;font-weight:normal">
+
+                <br>
+                Un suelo de pradera contiene 11 meq de calcio intercambiable por cada 100 gramos de suelo seco.
+                Calcular los kilogramos de calcio intercambiable por ha en una capa de 15 centímetros de
+                espesor, sabiendo que la densidad aparente del suelo seco es 1.4
+                <br>
+                <br>
+                Solución:
+                <br>
+                Por cada 100 gramos de suelo seco hay:
+                <br>
+                11 x 20.04 x 0.001 = 0.22 g de calcio.
+                <br>
+                En cada m<sup>2</sup> de suelo hay:
+                <br>
+                100 x 100 x 1.5 x 1.4 = 210,000 g.
+                <br>
+                <br>
+                <text style="color:purple;">
+                Entonces, si en 100 g de suelo hay 0.22 g de Calcio,<br>
+                ¿En 210,000 g de suelo cuántos gramos de Calcio habrá?
+                </text>
+                <br>
+                <br>
+                (0.22 x 210,000) / 100  = 462 g de calcio intercambiable.
+                <br>
+                <br>
+                Por lo tanto en una hectárea habrá:
+                <br>
+                462 x 10,000 = 4,620,000 g = 4,620 kg de calcio intercambiable.
+                </section>
+                <br>
+
+                <h3 id="4 sub 5">
+                    <br>
+                    <br>4.5. Saturación de bases o porcentaje de bases intercambiables</h3>
+
+                Algunos de los cationes intercambiables tienen carácter básico, como son los cationes
+                de calcio, magnesio, potasio, sodio, etc; mientras que los cationes de hidrógeno y de
+                aluminio tienen carácter ácido. Se llama <i>porcentaje de saturación de bases</i> a la
+                proporción de cationes básicos con relación al total de cationes intercambiables,
+                expresada en porcentaje. Por ejemplo, un suelo que tiene una CIC de 17 meq/100g, de
+                los cuales 13 meq corresponden a cationes básicos, el porcentaje de saturación de bases
+                será:
+                <br>
+                <br>
+                &emsp;13/17 x 100 = 76.4%
+                <br>
+                <br>
+                Se dice que el complejo está saturado cuando todos los iones ácidos han sido
+                sustituidos por iones básicos.
+                <br>
+                <br>
+                Los cationes de hidrógeno son los más fuertemente adsorbidos por el complejo, por lo
+                que es más difícil el intercambio por otros cationes. Los suelos que tienen un
+                porcentaje de saturación de bases alto son suelos fértiles, ya que disponen de una
+                gran cantidad de sitios de intercambio ocupados por cationes básicos, fácilmente
+                intercambiables con otros cationes básicos de la solución del suelo.
 <br>
-<br>
-                    <!--
-                <h5 id="1 sub 1 sub 0">
+                <br>
+
+
+
+                    <text style="background-color:red;color:white;padding:0.3%;">EJERCICIO</text>
+
+                    <section style="background-color:#F7DC6F;color:black;padding:1%;font-weight:normal">
+
+
+                            <b>Lea el siguiente problema y conteste las preguntas al final de la sección</b>.
+                            <br>
+                        <br>
+                                Don Pánfilo Casimiro tiene disponibles dos terrenos para sembrar.
+                                Las superficies son:
                         <br>
                         <br>
-                    <br>
-                        <ph5>
-                            1. Explorando conocimientos previos
-                        </ph5>
-                    </h5>
-
-
-
-                Se presentan a continuación los datos de las edades de 83 trabajadores
-                de la planta NISSAN - CIVAC, ubicada en el estado de Morelos, México.
-
-                <br>
-
-                <p style = "font-family:courier;line-height:20px;color:#E2E090;padding:5%">
-                    Tabla 1. Edades de 83 trabajadores de NISSAN.<br>
-                    ___________<br><br>
-                    29 28 39 27 27 30 34 44 30 31 26 28 30 36 27 35 37 29 43 30 30 27 28 55 26 40 28 29 26 31 31 33
-                    36 59 31 25 47 24 57 30 32 27 29 32 28 45 31 35 33 29 26 61 46 27 37 33 24 30 26 34 33 29 31 28
-                    27 28 31 28 28 26 39 28 30 28 31 27 34 32 28 28 27 55 33<br>
-                    ___________
-                    </p>
-
-                Para el 50 aniversario de la planta se organizó un concurso en el que se dará como premio un
-                auto nuevo de fábrica. Solo podrán participar los dos trabajadores más puntuales. El concurso
-                consiste en lo siguiente:
-                <br>
-                <br>
-                <div style="padding-left:5%;padding-right:5%;font-style:italic;color:#E2E090">
-                En diferentes papelitos se escribirán las edades de los trabajadores de la fábrica. Los 83
-                papelitos se ingresarán en una tómbola. El concursante deberá sacar un papelito de la tómbola,
-                pero antes de hacerlo tiene que adivinar y decir en voz alta la edad que aparecerá escrita en
-                    el papelito. Aquel que atine primero la edad que aparecerá en el papelito será el ganador.
-                    <b>Ana</b> y <b>Luis</b> son los participantes.
-                    </div>
-                <br>
-                <br>
-                &emsp;<b>Ana</b> eligió el número 30.<br>
-                &emsp;<b>Luis</b> eligió el número 39.
-                <br>
-                <br>
-                <h6
-                id="1 sub 1 sub 0 sub 1">
-                    <br> <br>
-                <text  id ="actividad 1">
-                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
-                        <br>
-                        <b>Actividad 1</b>
-                        <br>
-                        &#128073;<buttonAr1 onclick="PopWinAr1()"
-                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
-                            Ver Rúbrica 1....</buttonAr1><br><br>
-                        &nbsp;&nbsp;Cada estudiante escribe en su libreta las siguientes instrucciones y preguntas.<br><br>
-                        &nbsp;&nbsp;a) Formen equipos de 4 integrantes.<br>
-                &nbsp;&nbsp;b) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por Ana: <br>
-                &nbsp;&nbsp;c) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por Luis: <br>
-                &nbsp;&nbsp;d) ¿Quién crees que tiene más posibilidades de ganar el premio y por qué?<br>
-                 &nbsp;&nbsp;e) De todas las edades registradas en la Tabla 1 ¿Cuál es la que tu escogerías para
-                        tener más posibilidades de ganar el premio?<br>
-                 &nbsp;&nbsp;f) Argumenta por qué escogiste ese número.<br>
-                 &nbsp;&nbsp;g) ¿Cuál es el promedio de edad en la Tabla 1?<br>
-                 &nbsp;&nbsp;h) ¿Cuál es la edad más grande y la edad más chica en la Tabla 1?<br>
-                        <br>
-                    </p></text></h6>
-
-                <h5 id="1 sub 1 sub 1">
+                        A) 24,000 m<sup>2</sup><br>
+                        B) 11,250 m<sup>2</sup>.
                         <br>
                         <br>
+                        La densidad
+                                aparente del suelo del terreno A es de 1.3 g/cm<sup>3</sup> y la del
+                        terreno B es de 1.2 g/cm<sup>3</sup>.
+                                En los resultados del análisis de suelo que mandó hacer Don Pánfilo
+                                se indica además la presencia de cationes como se muestra a continuación:
+                                    <br>
+                                    <br>
+                                    Terreno A:<br><br>
+                                    K: 0.5 meq/100 g<br>
+                                    Ca: 4 meq/100 g<br>
+                                    Mg: 2 meq7100 g<br>
+                                    Na: 0.7 meq/100g<br>
+                                    H: 1 meq/100 g<br>
+                                    Al: 2 meq/100 g
+                                <br>
+                                <br>
+                                    Terreno B:<br><br>
+                                    K: 3 meq/100 g<br>
+                                    Ca: 10.1 meq/100 g<br>
+                                    Mg: 1 meq7100 g<br>
+                                    Na: 0.3 meq/100g<br>
+                                    H: 2 meq/100 g<br>
+                                    Al: 1 meq/100 g
+                                <br>
+                                <br>
+                        </section>
+                    <section style="background-color:purple;color:#F7DC6F;padding:1%;font-weight:normal">
 
-                        <ph5>
-                            2. Conociendo R
-                        </ph5>
-                    </h5>
-                <b>R</b> es un lenguaje y un entorno para la computación estadística y gráficos.
-                Uno de los puntos fuertes de <b>R</b> es la facilidad con la que se pueden
-                producir gráficos bien diseñados con calidad de publicación
-                <a style="color:lightgreen;" href="https://www.r-project.org/about.html" target = _blank>[1]</a>.
-                Instalaremos <b>R</b> en los equipos del laboratorio de cómputo, puedes descargar
-                la última versión en el siguiente
-                <a style="color:lightgreen;" href="https://cran.r-project.org/mirrors.html" target = _blank>sitio&#128072;</a>
-                y escoger el <i>mirror</i> de descarga que te corresponde de acuerdo al país donde te encuentres.
-                <br>
-                <br>
-                Una vez instalado <b>R</b> en tu computadora, en tu libreta realiza a mano las operaciones que
-                se indican en la siguiente
-                &#128073;<buttonAe2 onclick="PopWinAe2()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    l i g a</buttonAe2> &#128072; al finalizar tu profesor te enseñará
-                como hacer las mismas operaciones utilizando el lenguaje <b>R</b>. Abre el programa <b>R</b> que fue
-                instalado en tu equipo o, alternativamente, si aún no lo tienes
-                instalado, puedes trabajar
-                <b>en línea</b> ingresando al sitio <a style="color:#77e988;" href="https://rdrr.io/snippets/" target = _blank>snippets&#128072;</a>
-                donde deberás ingresar las instrucciones en la ventana de comando. Consulta cualquier duda con tu profesor.
-                <br>
-                <br>
+                                    &emsp;<b>1</b>. ¿Cuántos kg por hectárea de K, Ca y Mg se estima que hay en cada terreno si consideramos
+                                    una profundidad de 20 cm?<br>
+                                    &emsp;<b>2</b>. ¿Cuántos kg totales de K, Ca y Mg hay en cada terreno de siembra de Don Pánfilo?<br>
+                                    &emsp;<b>3</b>. ¿Cuál es el porcentaje de saturación de bases intercambiables en cada terreno?<br>
+                                    &emsp;<b>4</b>. ¿Cuál terreno podría considerarse que es más fértil?
 
+                    </section>
 
-                Ingresa el siguiente código:
-                <br>
-                <br>
-                print("La edad mas grande es: ")<br>
-                max(edades)<br>
-                print("--------------------------")<br>
-                print(paste0("La edad mas grande es: ", max(edades)))<br>
-                print(paste0("La edad mas chica es: ", min(edades)))<br>
-                print(paste0("Las veces que se presenta cada edad es: "))<br>
-                table(edades)<br>
-                Observa los 83 datos de las edades de los
-                trabajadores de NISSAN e ingrésalos en <b>R</b> y observa cuántas veces se repite
-                cada número siguiendo las instrucciones que &#128073;<buttonAe3 onclick="PopWinAe3()"
-                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
-                    a q u í</buttonAe3> se dan.
-
-
-
-                <br>
-                <br>
-
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br><br>
-                <br>
-                <br>
-                <br>
-
-
-
-
-
-
-                <h5 id="1 sub 1 sub 1">
                     <br>
                     <br>
-                <p style="background:purple;color:white;font-weight:bold;">&emsp;&#129322;Activity 1</p></h5>
-                <h5 id="1 sub 1 sub 1 sub 1">
+                    Dado que los cationes de caracter básico tienen una mayor facilidad para ser
+                    intercambiados, se obtiene la Capacidad de Intercambio Catiónico a partir de
+                    la suma total de meq/100g de dichas bases intercambiables que son K, Ca, Mg y Na.
+                    En un terreno se tienen los siguientes datos de contenido de bases y CIC:
                     <br>
                     <br>
-                    <p style="background:#66C802;color:white">&#128214;&#127911;Reading and listening</p>
-                </h5>
-                1. Read and listen to Miguel, he is the manager's assistant in a busy hotel. He usually
-                deals with the hotel's guests. Today is a busy morning: there is a congress going on
-                at the hotel's premises.
-                &#128073;<a style="color:yellow;" href="https://training.grupoktdra.com/BT-ING5/audio/JJJF/QOAZ" target="_blank"> &#128266; Listen</a> <b>to him and match his statements to the pictures</b>.
+
+                    <table border=0
+           style="background-color:lightgrey;color:#515A5A;width:45%;"
+           class="center3">
+
+                    <caption style = "caption-side:bottom;padding-left:1%;font-size:14px;color:purple;">
+
+        Observe que la CIC es la suma de los meq/100g de las bases intercambiables.
+                        <i>*</i><br><br>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th>K<br>meq/100g</th><th>Ca<br>meq/100g</th><th>Mg<br>meq/100g</th><th>Na<br>meq/100g</th><th style="background-color: black">CIC<br>meq/100g</th></tr></thead>
+                        <tr style="background-color:lightgrey"><td>1</td><td>11</td><td>2</td><td>1</td><td>15</td></tr>
+                    </table>
+                    <br>
+                    <br>
+                Sin embargo, dado que no siempre contaremos con datos precisos dados por un análisis de laboratorio,
+                existen algunos valores de referencia para estimar la CIC del suelo en
+                función de su textura:
+                <br>
+                <br>
+                - Suelos arenosos: menos de 10 meq/100g<br>
+                - Suelos francos: alrededor de 15 meq/100g<br>
+                - Suelos arcillosos: más de 20 meq/100g
+                <br>
+                <br>
+                Una vez que se conoce el contenido de bases intercambiables en un suelo es necesario
+                interpretar si dichos valores son altos o bajos, esto con la finalidad de poder
+                determinar si es necesario aportar en mayor cantidad aquellos nutrientes con una baja presencia.
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;width:45%;color:#515A5A;"
+           class="center3">
+
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th>Calcio<br>meq/100g</th><th>Interpretación</th><th>Magnesio<br>meq/100g</th></tr></thead>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>> 20</td><td>Muy alto</td><td>> 4 </td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>14 - 20</td><td>Alto</td><td>2.6 - 4</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>10 - 14</td><td>Normal</td><td>1.6 - 2.5</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>3.5 - 10</td><td>Bajo</td><td>0.7 - 1.5</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>0 - 3.5</td><td>Muy bajo</td><td>0 - 0.6</td></tr>
+                    </table>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;width:50%;color:#515A5A;"
+           class="center3">
+
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th>Potasio<br>meq/100g</th><th>Interpretación</th><th>Sodio<br>meq/100g</th></tr></thead>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>> 1</td><td>Muy alto</td><td>> 1.5 </td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>0.76 - 1</td><td>Alto</td><td>1.01 - 1.5</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>0.51 - 0.75</td><td>Normal</td><td>0.61 - 1</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>0.26 - 0.5</td><td>Bajo</td><td>0.31 - 0.6</td></tr>
+                        <tr style="text-align:left;background-color:lightgrey;"><td>&emsp;0 - 0.25</td><td>Muy bajo</td><td>0 - 0.3</td></tr>
+                    </table>
+
+                <br>
+                    <br>
+                    <h3 id="4 sub 6"<br>
+                    <br>
+                <br>
+                4.6. Porcentaje de Sodio Intercambiable (PSI)</h3>
+
+                Para poder calcular el PSI se debe determinar el contenido de sodio intercambiable así cmo también
+                la Capacidad de Intercambio Catiónico (CIC) del suelo. El PSI no es más que el porcentaje de sodio
+                respecto a los demás cationes y se expresa como un porcentaje:
+                <br>
+                <br>
+                &emsp;<b style="color:lightgrey;">PSI = 100 x Na/CIC</b>
+                <br>
+                <br>
+                (Na y CIC en unidades de meq/100g)
+                <br>
+                <br>
+                Según Massoud (1971) podemos clasificar suelos según su PSI en:<br>
+                <table border=0
+           style="background-color:lightgrey;width:40%;color:#515A5A;"
+           class="center3">
+
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th>PSI</th><th>Clase</th></tr></thead>
+                        <tr><td><7</td><td>No sódico</td></tr>
+                        <tr><td>7-15</td><td>Ligeramente sódico</td></tr>
+                        <tr><td>15-20</td><td>Moderadamente sódico</td></tr>
+                        <tr><td>>30</td><td>Extremadamente sódico</td></tr>
+
+                    </table>
+
+                    <br>
+                    <br>
+                    <h3 id="4 sub 7"<br>
+                    <br>
+                <br>
+                4.7. Adsorción de aniones</h3>
+
+                La adsorción de cationes se debe fundamentalmente a fenómenos de atracción eléctrica.
+                El complejo coloidal tiene carga neta negativa, por lo que se produce una atracción de
+                los cationes y una repulsión de los aniones. Sin embargo, algunas partículas coloidales
+                (caolinita, arcillas amorfas, hidróxidos de hierro y de aluminio) tienen unas características
+                peculiares que les permiten la adsorción de aniones. Este tipo de absorción se debe
+                sobre todo a posiciones del complejo con carga positiva o a un intercambio de grupos
+                ácidos.
+                <br>
+                <br>
+                La adsorción de los aniones nitrato y cloruro es prácticamente nula. En suelos ácidos
+                se produce alguna adsorción del anión sulfato, mediante intercambio con aniones
+                hidróxido (OH<sup>-</sup>) contenidos en los hidróxidos de hierro y de aluminio. Los
+                aniones fosfato son prácticamente adsorbidos por todos los suelos mediante intercambio
+                de aniones OH<sup>-</sup> ligados a hidróxidos de hierro y de aluminio o atraidos hacia
+                zonas positivas del complejo que se produce bajo condiciones ácidas. La mayor adsorción
+                del fósforo, por tanto, se produce en suelos ácidos que sean ricos en hidróxidos de
+                hierro y aluminio.
+                <br>
+                <br>
+                El fenómeno de adsorción de aniones es muy complejo, produciéndose interferencias no solo
+                entre ellos, sino también con diversos cationes, tales como el de calcio y el de aluminio.
+
+                <h3 id="4 sub 8">
+                    <br>
+                    <br>4.8. Movimiento de iones en el suelo</h3>
+
+                El movimiento de iones en el suelo se realiza de dos formas:
+                <br>
+                <br>
+                &emsp;<i>Por circulación del agua</i>. Los iones que no son absorbidos por las plantas
+                (nitrato, cloruro y la mayor parte del sulfato) se mueven juntos con el agua del suelo.
+                Bajan hacia capas inferiores del suelo cuando hay exceso de agua y ascienden a capas
+                superiores por efecto de capilaridad cuando hay escazes de agua. los suelos arenosos,
+                que retienen poca cantidad de agua, pueden experimentar grandes pérdidas de estos iones,
+                arrastrados por el agua de lavado.
+                <br>
+                <br>
+                &emsp;<i>Por difusión</i>. Cuando en la solución del suelo existen zonas con distinta
+                concentración de iones se produce un desplazamiento de los mismos desde la zona más
+                concentrada hacia la más diluida. Este tipo de movimiento de iones es el que predomina
+                entre los iones absorbidos por el suelo.
+                <br>
+                <br>
+                De las propiedades adsorbentes del complejo coloidal y del movimiento de iones en el
+                suelo se derivan unas consecuencias importantes en la utilización de los abonos que
+                proporcionan elementos primarios:
+                <br>
+                <br>
+                - Los abonos nitrogenados suministran el nitrógeno bajo las formas de anión nitrato
+                (NO<sub>3</sub><sup>-</sup>) y catión amonio (NH<sub>4</sub><sup>+</sup>). El complejo
+                retiene al amonio, pero no retiene el nitrato. Como consecuencia de esto, el nitrato
+                puede ser arrastrado por el exceso de agua antes de que sea absorbido por las
+                plantas.
+                <br>
+                <br>
+                - Los abonos fosfóricos suministran el fósforo bajo la forma de aniones fosfato, que
+                son retenidos por el complejo y, por tanto, no son arrastrados por el agua.
+                <br>
+                <br>
+                - Los abonos potásicos suministran el potasio bajo la forma de catión potasio (K<sup>+</sup>),
+                que también es retenido por el complejo.
+                <br>
+                <br>
+                Por otra parte, la cantidad de cationes adsorbidos depende de la capacidad de intercambio
+                del complejo coloidal. Los suelos arenosos y los arcillosos en donde predominan las arcillas
+                con poca superficie activa (caolinita) tienen poca CIC, por lo que los elementos nutritivos
+                son arrastrados con facilidad con el agua de drenaje. Los suelos fértiles tienen una gran
+                CIC en el complejo coloidal, en donde quedan adsorbidos los iones que sirven de alimento
+                a las plantas. Se podría considerar al complejo como una despensa donde se almacenan la
+                mayoría de los elementos nutritivos, que pasan a disposición de las plantas cuando ésta
+                los necesita.
+
+                <h3 id="4 sub 9">
+                    <br>
+                    <br>4.9. Acidez del suelo</h3>
+                
+                Hay que distinguir entre acidez actual y acidez cambiable. La <i>acidez actual</i> está
+                determinada por la concentración de iones de hidrógeno (H<sup>+</sup>) contenidos en
+                la solución del suelo. Esta concentración es pequeña, por lo que se expresa con la notación
+                <i>pH</i> (potencial de hidrógeno), que es el exponente, cambiado de signo, a que habría
+                que elevar 10 para obtener la concentración molar de iones hidrógeno en una
+                disolución determinada. Por ejemplo:
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;"
+           class="center3">
+
+
+                    <caption style = "caption-side:bottom;padding-left:1%;font-size:14px;">
+                    </caption>
+
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> Concentración de H<sup>+</sup><br>(en moles por litro de solución) </th> <th>pH</th></tr></thead>
+                        <tr style="text-align:left;color:grey;">  <td> 10<sup>-3</sup> = 0.001</td><td align="center">3</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> 10<sup>-4</sup> = 0.0001</td><td align="center">4</td></tr>
+                        <tr style="text-align:left;color:grey;">  <td> 10<sup>-5</sup> = 0.00005</td><td align="center">5</td></tr>
+
+                  </table>
+                <br>
+                <br>
+                Según se observa en el ejemplo anterior, cuando el pH aumenta en una unidad, la concentración de
+                iones de hidrógeno se divide por 10, Así, una disolución de pH = 5 tiene una concentración
+                10 veces menor que otra de pH = 4 y 100 veces menor que otra con pH = 3.
+                <br>
+                <br>
+                Cuando el pH = 7 la disolución es neutra. Si el pH es inferior a 7, la disolución es ácida, y
+                será tanto más ácida cuanto menor sea el valor del pH. Si el pH es superior a 7, la disolución
+                es básica, y será tanto más básica cuanto mayor sea su pH.
+                <br>
+                <br>
+                El valor pH varía teóricamente entre 0 y 14, aunque en la myoría de los suelos está
+                comprendido entre 5.5 y 8.5.
+                <br>
+                <br>
+                La <i>acidez cambiable</i> está determinada por la cantidad total de iones de hidrógeno
+                (H<sup>+</sup>) y de aluminio (Al<sup>3+</sup>) adsorbidos en el complejo coloidal.
+                Esta acidez es la diferencia entre el total de cationes adsorbidos y los cationes
+                básicos; depende, por tanto, de la CIC y del porcentaje de saturación de bases.
+                <br>
+                <br>
+                La acidez cambiable se neutraliza cuando los iones ácidos son intercambiados con iones
+                básicos contenidos en la solución del suelo. Los H<sup>+</sup> y Al<sup>3+</sup> son
+                retenidos fuertemente por el complejo, por lo que se necesitan iones básicos en
+                exceso para lograr la neutralización completa de la acidez.
+                <br>
+                <br>
+                El <i>poder amortiguador</i> de un suelo hace referencia a la dificultad que tiene ese
+                suelo para modificar su acidez cambiable. Los suelos arcillosos y ricos en humus, con
+                gran CIC, tienen un fuerte poder amortiguador, puesto que necesitan una gran cantidad
+                de Ca<sup>2+</sup> para sustituir a todos los H<sup>+</sup>, en el supuesto de que ese
+                suelo fuera ácido. En cambio, los suelos arenosos, que tienen poca CIC, tienen un débil
+                poder amortiguador, y cuando son ácidos necesitan aportaciones moderdas de calcio
+                para neutralizar su acidez.
+                <br>
+                <br>
+                <h3 id="5 cap">
+                    <br>
+                    <br>5. LOS ORGANISMOS DEL SUELO</h3>
+
+                El suelo es un medio muy favorable para la vida y en el se desarrolla una gran variedad de
+                seres que clasificaremos en macroorganismos y microorganismos.
+
+                <h3 id="5 sub 1">
+                    <br>
+                    <br>5.1. Los macroorganismos</h3>
+
+                Los mamíferos pequeños que viven en el suelo, los insectos, lombrices, etc., tienen una
+                gran influencia en las transformaciones químicas, ya sea a través de sus procesos digestivos
+                o por su acción directa sobre los microorganismos. Tienen la capacidad de pulverizar
+                el suelo y además, las galerías que forman promueven la aireación y el drenaje en el suelo.
+                Se alimentan de tejidos vegetales más o menos descompuestos y con lo que se inician procesos
+                de descomposición que posteriormente terminan los microorganismos.
+                <br>
+                <br>
+                Las raíces son consideradas macroorganismos vegetales, y estas excretan sustancias ácidas que
+                actúan como disolventes transformando algunos materiales insolubles en solubles y asimilables.
+                En la <text style="color:white; font-weight:bold;font-family:cursive;">rizosfera</text> (zona que
+                rodea a las raíces) proliferan los microorganismos por lo que en esa zona  se activan los
+                procesos bioquímicos. Cuando las raíces mueren le aportan al suelo una gran cantidad de
+                materia orgánica.
+
+                <h3 id="5 sub 2">
+                    <br>
+                    <br>5.2. Los microorganismos</h3>
+
+                La población microbiana del suelo es muy abundante y varía según las condiciones del medio y
+                la cantidad de alimento disponible. En un medio idóneo se estima que al cabo de un año se
+                pueden formar de tres a seis toneladas de cuerpos microbianos en una hectárea de suelo.
+                <br>
+                <br>
+                Los diferentes microorganismos que habitan el suelo como bacterias, hongos, actinomicetos, entre
+                otros, son de vital importancia para mantener un suelo sano y fértil, ya que se encargan de
+                distintos procesos desde la fijación de nutrientes o la descomposición de materia orgánica,
+                lo que es fundamental para hacer disponibles los nutrientes requeridos por las plantas.
+
+                <h4 id="5 sub 2 sub 1">
+                    <br>
+                    <br>5.2.1. Micorrizas</h4>
+
+                Las micorrizas son asociaciones simbióticas que se desarrollan entre ciertos hongos
+                microscopicos del suelo y las raíces de la mayoría de las plantas. La planta transfiere al
+                hongo carbohidratos, proteínas y vitaminas, mientra que el hongo desarrolla un sistema
+                muy eficaz para captar ciertos nutrientes minerales (especialmente fosfatos) y
+                traspasarlos a la planta. Las plantas que responden mejor a la micorrización son las que
+                tienen grandes necesidades de fósforo (leguminosas) y aquellas otras que tienen un sistema
+                radical pobre (cebolla, papa). Cabe señalar la influencia negativa que tienen los
+                plaguicidas sobre las micorrizas.
+
+                <h3 id="6 cap">
+                    <br>
+                    <br>6. LA MATERIA ORGÁNICA DEL SUELO</h3>
+
+                La materia orgánica del suelo está constituida por aquellas sustancias de origen animal o
+                vegetal que se acumulan en el suelo o se incorporan a el. Las sustancias de origen animal
+                están formadas por restos de animales y sus deyecciones, las cuales se transforman rápidamente
+                en el suelo sin dejar productos duraderos. Las sustancias de origen vegetal proceden de los
+                residuos de plantas superiores (raíces y partes aéreas) y de los cuerpos sin vida de la
+                microflora del suelo (bacterias, hongos, actinomicetos y algas).
+
+                <h3 id="6 sub 1">
+                    <br>
+                    <br>6.1. Descomposición de la materia orgánica</h3>
+
+                Sobre la materia orgánica del suelo actúan una infinidad de microorganismos que la
+                descomponen y transforman. Esta transformación se realiza mediante dos procesos distintos:
+                <br>
+                <br>
+                - <i style="color:white">Mineralización</i>. Los residuos orgánicos se descomponen completamente y se transforman
+                con rapidez en sustancias minerales (agua, dióxido de carbono, nitratos, etc.).
+                <br>
+                <br>
+                - <i style="color:white">Humificación</i>. Los residuos orgánicos se transforman en primer lugar en otra
+                materia orgánica muy descompuesta y de naturaleza coloidal, llamada <i>humus</i>. Con
+                posterioridad el humus se transforma lentamente en sustancias minerales.
+                <br>
+                <br>
+                La mayor parte de los residuos animales se mineralizan sin pasar por el estado de humus. Por
+                este motivo, y porque son muy escasos en comparación con los residuos vegetales, tienen escasa
+                importancia.
+                <br>
+                <br>
+                La materia orgánica se descompone con mayor o menor rapidez, según la composición del material
+                original. El almidón, la celulosa y las proteínas sencillas se descomponen rápidamente, mientras que
+                las ligninas, ceras, taninos, resinas y grasas son bastante resistentes al ataque microbiano y
+                se descomponen con lentitud, constituyendo la base del humus.
+
+
+
+
+
+
+                <h3 id="7 cap">
+                    <br>
+                    <br>7. CONTENIDO DE NUTRIENTES EN ABONOS ORGÁNICOS Y ESTIÉRCOLES</h3>
 
                 <br>
                 <br>
-                a. Excuse me, sir. You mustn't smoke in here. It's a non-smoking area.<br>
-                b. Madam? Excuse me, but you mustn't carry the pool towels out of the pool area.<br>
-                c. Excuse me, Ma'am. You must leave your wine glass at the lobby bar.<br>
-                d. Excuse me, young man. You mustn't use your scooter in the lobby.<br>
-                e. Excuse me, sir. You must leave a deposit in advance. That's the hotel's policy.<br>
-                f. Excuse me, ladies. I must ask you to move, you are blocking the entrance. But I've
-                already arranged a table for you at the bar.<br>
-                g. Excuse me young lady. You must fill an identity card for your teddy bear. It's hotel's
-                regulations.<br>
-                h. Excuse me, madam. I must ask you to wait for a minute while I bring a wheelchair.<br>
-                <br>
-                <img src = "libro F-001.jpg"
-             class = "center" style ="width:100%">
-                <br>
-                <br>
-                2. Now, practice the sentences. Pay attention to the pronunciation. Listen to the sentences
-                as many times as you need in order to practice.
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="table5">
+
+                    <caption style = "background-color:lightgrey;caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br><B>CONTENIDO DE NUTRIENTES DE DIFERENTES MATERIALES ORGÁNICOS</B>
+                    </caption>
+
+                    <caption style = "text-align:left;caption-side:bottom;padding-left:1%;font-size:14px;color:white;">
+
+        Porcentajes sobre materia total.
+                        <i>*</i><br><br>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> </th><th>Materia<br>Orgánica<br>%</th><th>N<br>%</th><th>P<sub>2</sub>O<sub>5</sub><br>%</th><th>K<sub>2</sub>O<br>%</th><th>CaO<br>%</th><th>MgO<br>%</th></tr></thead>
+                        <tr style="text-align:left;">  <td>Estiércol Mezcla</td><td align="center">40</td><td>0.5</td><td>0.1</td><td>0.6</td><td>0.5</td><td>0.4</td></tr>
+                        <tr style="text-align:left;">  <td>Estiércol Ovino</td><td align="center">45</td><td>1.4</td><td>0.2</td><td>1</td><td>0.58</td><td>0.18</td></tr>
+                        <tr style="text-align:left;">  <td>Compost Vegetal</td><td align="center">47</td><td>1.5</td><td>0.8</td><td>1</td><td>1</td><td>0.9</td></tr>
+                        <tr style="text-align:left;">  <td>Humus Lombriz</td><td align="center">50</td><td>2</td><td>1.5</td><td>1</td><td>2</td><td>1</td></tr>
+                  </table>
                 <br>
                 <br>
 
+                    <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="table5">
+                    <caption style = "background-color:lightgrey;caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br><B>CONTENIDO DE NUTRIENTES EN DIFERENTES ESTIÉRCOLES</B>
+                    </caption>
+                    <caption style = "text-align:left;caption-side:bottom;padding-left:1%;font-size:14px;color:white;">
+
+        Porcentajes sobre materia seca.
+                        <i>*</i><br><br>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th></th><th>Gallinaza</th><th>Oveja</th><th>Ternero</th><th>Vaca</th><th>Conejo</th><th>Cerdo</th></tr></thead>
+                        <tr style="text-align:left;"><td>Materia seca<br>% sobre material total</td><td align="center">22</td><td>25</td><td>23</td><td>23</td><td>26</td><td>5.2</td></tr>
+                        <tr style="text-align:left;"><td>* Materia orgánica</td><td align="center">64.71</td><td>64.08</td><td>73.25</td><td>66.28</td><td>69.38</td><td>68.27</td></tr>
+                        <tr style="text-align:left;"><td>* N</td><td align="center">1.74</td><td>2.54</td><td>2.4</td><td>1.84</td><td>2.79</td><td>4.28</td></tr>
+                        <tr style="text-align:left;"><td>* P<sub>2</sub>O<sub>5</sub></td><td align="center">4.18</td><td>1.19</td><td>1.5</td><td>1.73</td><td>4.86</td><td>5.96</td></tr>
+                        <tr style="text-align:left;"><td>* K<sub>2</sub>O</td><td align="center">3.79</td><td>2.83</td><td>3.14</td><td>3.1</td><td>1.88</td><td>5.17</td></tr>
+                        <tr style="text-align:left;"><td>* CaO</td><td align="center">8.9</td><td>7.76</td><td>2.99</td><td>3.74</td><td>6.62</td><td>4.04</td></tr>
+                        <tr style="text-align:left;"><td>* MgO</td><td align="center">2.9</td><td>1.51</td><td>0.91</td><td>1.08</td><td>2.1</td><td>0.96</td></tr>
+                  </table>
                 <br>
-                <text  id ="pronunciation tip 1">
-                    <p style="background-color:#EF3E54;color:black;font-weight:normal;">
-                        <br>
-                        <br>
-                        <b>Pronunciation practice tip 1</b>
-                        <br>
-                        <br>
-                Listen to each line and repeat it. Practice
-                "shadowing". Shadowing means listening to a short sentence or phrase, and then repeating it
-                afterwards, trying to imitate the sounds, intonation and word stress.</p></text>
+                <br>
+                Por otro lado, es importante mencionar el aprovechamiento del <b style="color:#FD628C">rastrojo</b> como otra fuente de nutrientes al alcance de
+                cualquier productor. De acuerdo con datos del
+                <a style="color:yellow;" href="https://www.cimmyt.org/es/noticias/la-importancia-del-rastrojo-en-tu-parcela/"
+                   target="_blank">Centro Internacional de Mejoramiento de Maíz y Trigo (CIMMYT)</a>, el rastrojo puede aportar
+                35 % de nitrógeno, 12 % de fósforo,
+                80 % de potasio y hasta 95 % del calcio de la cantidad total que aplicamos de fertilizante en nuestros cultivos.
+                Lo anterior representa un gran beneficio para el productor al contribuir a reducir la dependencia de los
+                fertilizantes inorgánicos y a la errante variación de los precios en este tipo de productos. Pero además la
+                reincorporación del rastrojo en el suelo genera otros beneficios para el suelo al mejorar el contenido de
+                materia orgánica así como la estructura y el contenido de humedad del suelo, entre otros beneficios.
+                <br>
+                <figure>
+                <img
+                        src="rastrojo.jpg"
+                class="center" style="width:40%">
+                    <figcaption style="font-family:courier;font-size:18px;text-align:center;" >Fig . Rastrojo reincorporado a la parcela.<br>Fuente: CIMMYT.</figcaption>
+                </figure>
+
+
+                <h3 id="8 cap">
+                    <br>
+                    <br>8. FERTILIZANTES</h3>
+
+                El objetivo primordial de la fertilización consiste en suministrar al suelo los
+                    elementos nutritivos que se precisan para obtener la máxima rentabilidad
+                    en la producción. Para lograrlo hay que tener en cuenta las siguientes consieraciones:
+                <br>
+                <br>
+                - La fertilidad del suelo se conserva reponiendo las pérdidas de elementos nutritivos.
+                <br>
+                <br>
+                - El aumento de la fertilidad no es proporcional al incremento de la dosis de abonado.
+                <br>
+                <br>
+                - La aportación de una determinada cantidad de un elemento nutritivo es tanto más eficaz
+                cuanto más próximos esten a su óptimo los demás elementos.
+                <br>
+                <br>
+                Es muy importante considerar además que las plantas aprovechan solamente un porcentaje relativamente reducido de los fertilizantes
+                sintéticos añadidos al suelo. Los porcentajes de aprovechamiento para fertilizantes
+                nitrogenados, fosfatados y potásicos se muestran a continuación:
                 <br>
                 <br>
 
--->
-           </h3>
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center3">
+                    <caption style = "background-color:lightgrey;caption-side:top;font-size:18px;font-weight:bold;color:grey;">
+                       <br> <B>PORCENTAJES DE APROVECHAMIENTO DE LOS FERTILIZANTES</B>
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th>Tipo de fertilizante</th><th>% de aprovechamiento</th></tr></thead>
+                        <tr style="background-color:lightgrey;text-align:left;">  <td>Nitrogenado</td><td align="center">50-60</td></tr>
+                        <tr style="background-color:lightgrey;text-align:left;">  <td>Fosfatado</td><td align="center">20-30</td></tr>
+                        <tr style="background-color:lightgrey;text-align:left;">  <td>Potásico</td><td align="center">40-70</td></tr>
+                </table>
+                <br>
+                <br>
+                <h3 id="8 sub 1">
+                    <br>
+                    <br>8.1. Restitución de las pérdidas de elementos nutritivos</h3>
+
+                <br>
+                Las pérdidas de elementos nutritivos se producen por las siguientes causas:
+                <br>
+                <br>
+                - Extracción de los cultivos.
+                <br>
+                - Pérdidas por lixiviación.
+                <br>
+                - Fijación irreversible en el suelo.
+
+                <br>
+                <br>
+                <br>
+
+
+
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center2">
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br>
+                        <B>EXTRACCIÓN DE ELEMENTOS NUTRITIVOS POR DIFERENTES CULTIVOS EN KG POR TONELADA PRODUCIDA Y
+                PARA DIFERENTES RENDIMIENTOS DE PRODUCCIÓN EN TON/HA</B>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+
+                        <tr><th> Cultivo</th><th>producción<br>ton/ha</th><th>N<br>kg</th><th>P<sub>2</sub>O<sub>5</sub><br>kg</th><th>K<sub>2</sub>O<br>kg</th></tr></thead>
+                        <tr style="text-align:left;background-color:#F9E79F;">  <td>Maíz</td><td align="center">10-15</td><td>26-30</td><td>10-12</td><td>25-30</td></tr>
+                        <tr style="text-align:left;background-color:#F9E79F;">  <td>Sorgo</td><td align="center">3-6</td><td>26-30</td><td>10-12</td><td>22-25</td></tr>
+                        <tr style="text-align:left;background-color:#F9E79F;">  <td>Trigo</td><td align="center">1.5-4</td><td>28-30</td><td>11-14</td><td>25-30</td></tr>
+                        <tr style="text-align:left;background-color:#E8DAEF;">  <td>Frijol</td><td align="center">0.6-1</td><td>45-50</td><td>16-22</td><td>40-45</td></tr>
+                        <tr style="text-align:left;background-color:#E8DAEF;">  <td>Haba</td><td align="center">1-2.5</td><td>50-52</td><td>15-20</td><td>40-45</td></tr>
+                        <tr style="text-align:left;background-color:#E8DAEF;">  <td>Lenteja</td><td align="center">0.6-1.2</td><td>45-50</td><td>14-16</td><td>35-40</td></tr>
+                        <tr style="text-align:left;background-color:#A3E4D7;">  <td>Alfalfa</td><td align="center">50-60</td><td>4-5</td><td>1.5-2</td><td>2.5-3</td></tr>
+                        <tr style="text-align:left;background-color:#A3E4D7;">  <td>Maíz forrajero</td><td align="center">50-70</td><td>2-2.5</td><td>1.2-1.4</td><td>2.5-3</td></tr>
+                        <tr style="text-align:left;background-color:#A3E4D7;">  <td>Girasol forrajero</td><td align="center">20-30</td><td>6-7</td><td>2-2.5</td><td>7-8</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Jitomate</td><td align="center">40-50</td><td>4-6</td><td>1.5-2</td><td>5-7</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Pepino</td><td align="center">20-30</td><td>7-8</td><td>4-5</td><td>5-6</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Cebolla</td><td align="center">20-40</td><td>3-4</td><td>1.5-2</td><td>6-8</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Coliflor</td><td align="center">10-25</td><td>7-10</td><td>4-5</td><td>8-10</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Pimiento</td><td align="center">20-40</td><td>5-6</td><td>4-5</td><td>8-9</td></tr>
+                        <tr style="text-align:left;background-color:#F5B7B1;">  <td>Papa</td><td align="center">20-30</td><td>7-9</td><td>2.5-3</td><td>15-25</td></tr>
+                  </table>
+
+                <br>
+                <br>
+                <h3 id="8 sub 2">
+                    <br>
+                    <br>8.2. Los fertilizantes</h3>
+                <section style="color:lightblue;">
+                "Los fertilizantes que contienen sólo un nutriente primario son
+                denominados fertilizantes simples. Aquellos conteniendo dos o
+                tres nutrientes primarios son llamados fertilizantes multinutrientes,
+                algunas veces también fertilizantes binarios (dos nutrientes) o ternarios
+                (tres nutrientes)".<br>
+                FAO. https://www.fao.org/3/x4781s/x4781s.pdf
+                    </section>
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center2">
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br>
+                        <B>Algunos fertilizantes simples importantes</B>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+                    <tr><td></td><td colspan="5">Grado o análisis en porcentaje</td></tr>
+                    <tr><td>Nombres comunes</td><td>N</td><td>P<sub>2</sub>O<sub>5</sub></td><td>K<sub>2</sub>O</td><td>Mg</td><td>S</td></tr></thead>
+                    <tr><td style="font-weight:bold;">Fertilizantes nitrogenados</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>Sulfato amónico</td><td>21</td><td>0</td><td>0</td><td>-</td><td>23</td></tr>
+                    <tr><td>Nitrato amónico</td><td>34</td><td>0</td><td>0</td><td>-</td><td>-</td></tr>
+                    <tr><td>Nitrato amónico-cálçico</td><td>26</td><td>0</td><td>0</td><td>-</td><td>-</td></tr>
+                    <tr><td>Urea</td><td>46</td><td>0</td><td>0</td><td>-</td><td>-</td></tr>
+                    <tr><td>Nitrosulfato amónico</td><td>26</td><td>0</td><td>0</td><td>-</td><td>15</td></tr>
+                    <tr><td style="font-weight:bold;">Fertilizantes fosfatados</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>Superfosfato simple</td><td>0</td><td>20</td><td>0</td><td>-</td><td>12</td></tr>
+                    <tr><td>Superfosfato triple</td><td>0</td><td>46</td><td>0</td><td>-</td><td>-</td></tr>
+                    <tr><td style="font-weight:bold;">Fertilizantes potásicos</td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>Cloruro potásico</td><td>0</td><td>0</td><td>60</td><td>-</td><td>-</td></tr>
+                    <tr><td>Sulfato potásico</td><td>0</td><td>0</td><td>50</td><td>-</td><td>18</td></tr>
+                    <tr><td>Sulfato potásico-magnésico</td><td>0</td><td>0</td><td>30</td><td>7</td><td>22</td></tr>
+                </table>
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center2">
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br>
+                        <B>Fertilizantes multinutrientes</B>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+                    <tr style="font-weight:bold;"><td>Tipo de fertilizante</td><td >% N</td><td>% P<sub>2</sub>O<sub>5</sub></td><td>% K<sub>2</sub>O</td></tr></thead>
+                    <tr><td>Fertilizantes NPK</td><td>5-26</td><td>5-35</td><td>5-26</td></tr>
+                    <tr style="font-weight:bold;"><td>Fosfatos amónicos</td><td></td><td> </td><td> </td></tr>
+                    <tr><td>DAP</td><td>18</td><td>46</td><td>0</td></tr>
+                    <tr><td>MAP</td><td>11</td><td>52</td><td>0</td></tr>
+                    <tr><td>Fertilizantes PK</td><td>0</td><td>6-30</td><td>6-30</td></tr>
+
+                </table>
+                <br>
+                <br>
+                Los grados de los típicos fertilizantes multinutrientes NPK y NP son:
+                <br>
+                <br>
+                1. Complejo NPK / fertilizantes compuestos: <br>
+                22-22-11, <text style="color:white">19-19-19</text>, 17-17-17, <text style="color:white">14-35-14</text>, 14-28-14,
+                <text style="color:white">15-15-15</text>, 13-13-21, <text style="color:white">12-24-12</text>,
+                12-12-17, <text style="color:white">11-22-22</text>, 10-26-26.
+                <br>
+                <br>
+                2. Complejo PK / Fertilizantes compuestos:<br>
+                28-28-0, <text style="color:white">26-14-0</text>, 24-24-0, <text style="color:white">23-23-0</text>,
+                20-20-0, <text style="color:white">18-46-0</text>, 16-20-0.
+                <br>
+                <br>
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center2">
+
+                    <caption style = "caption-side:top;padding-left:1%;font-size:18px;font-weight:bold;color:grey;">
+                        <br>
+                        <B>Algunos fertilizantes con micronutrientes</B>
+
+                    </caption>
+                    <thead style="background-color:#CA3165;color:white">
+                    <tr style="font-weight:bold;"><td>Nombre</td><td>Micronutrientes</td></tr></thead>
+                    <tr><td>Sulfato ferroso</td><td>Hierro (Fe)</td></tr>
+                    <tr><td>Sulfato de cobre</td><td>Cobre (Cu)</td></tr>
+                    <tr><td>Sulfato de Zinc</td><td>Zinc (Zn)</td></tr>
+                    <tr><td>Sulfato de Manganeso</td><td>Manganeso (Mn)</td></tr>
+                    <tr><td>Bórax</td><td>Boro (B)</td></tr>
+                    <tr><td>Molibdato de Sodio</td><td>Molibdeno (Mo)</td></tr>
+
+                </table>
+
+                <h3 id="8 sub 3">
+                    <br>
+                    <br>8.3. Fertilizantes de liberación lenta</h3>
+                <section style="color:lightblue;">
+                "Los fertilizantes de liberación controlada o lenta contienen el nutriente
+                (normalmente nitrógeno) en una forma que después de la aplicación demora
+                significativamente más tiempo su disponibilidad para la absorción de la
+                planta que un fertilizante común."
+                <br>
+                <br>
+                "Las principales ventajas son el ahorro de labores (en lugar de varias aplicaciones
+                solo se necesita una), reduciendo la toxicidad a la siembra aún con altas tasas de
+                aplicación, ...ahorro de fertilizantes para una mejor eficiencia del Nitrógeno
+                (con el 15 al 20 por ciento menos de nitrógeno aplicado, el mismo rendimiento ha sido
+                obtenido como con fertilizantes nitrogenados comunes)."
+                <br>
+                <br>
+                "una desventaja para la agricultura general es que, en el caso de los fertilizantes
+                de liberación lenta recubiertos con polímeros, el
+                costo por unidad de nutriente es considerablemente más elevado
+                que el de un fertilizante común. De allí que tales fertilizantes son usados casi
+                exclusivamente en cultivos de elevado valor, tales como las
+                hortalizas."
+                    <br>
+                    <br>
+                    "Los inhibidores de nitrificación y de ureasa son más
+            económicos para uso en la agricultura en general. Los inhibidores
+            de nitrificación son compuestos que, cuando son agregados a
+            los fertilizantes nitrogenados en forma de amoníaco, retrasan la
+            transformación de los iones del amoníaco (NH<sub>4</sub><sup>+</sup>) retenidos por
+            el complejo de adsorción a nitritos y posteriormente a nitratos (NO<sub>3</sub><sup>-</sup>)
+            a través de la actividad bacteriana del suelo; de este modo
+            se previene la lixiviación del nitrato no absorbido inmediatamente
+            por el cultivo.
+
+                FAO. https://www.fao.org/3/x4781s/x4781s.pdf
+                    </section>
+
+                <h3 id="8 sub 4">
+                    <br>
+                    <br>8.4. Calculando dósis de fertilización</h3>
+
+                La cantidad de fertilizante a ser aplicada por hectárea o en un
+                campo es determinada a través de la cantidad de nutrientes
+                necesarios y de los tipos y grados de fertilizantes disponibles.
+                Los fertilizantes minerales normalmente son expedidos en bolsas
+                de 50 kg. De allí que el agricultor tenga que saber la cantidad de
+                nutrientes contenidos en una bolsa de 50 kg.
+                <br>
+                <br>
+                <b style="color:cyan">Ejemplo 1</b>: se desea aplicar una recomendación de fertilización con
+                la fórmula 130-0-0 expresada en kg/ha. Para un óptimo aprovechamiento
+                se opta por usar como fertilizante el <b>Nitrosulfato de Amonio</b>
+                cuya fórmula es 26-0-0 y que contiene además 15 % de Azufre. Ahora se
+                necesita calcular la cantidad de sacos de producto que son
+                necesarios para cubrir la recomendación de Nitrógeno. Bien, por cada saco
+                de producto se tienen 26/2 = 13. Esto quiere decir que en cada saco de 50 kg hay
+                13 kg de Nitrógeno. Al dividir la dósis
+                recomendada entre el contenido de nutriente por saco obtenemos:
+                <br>
+                <br>
+                &emsp;&emsp;130/13 = 10
+                <br>
+                <br>
+                Se necesitan 10 sacos de <b>Nitrosulfato de amonio</b> para poder cubrir la
+                recomendación dada. Esto quiere decir que se necesitan 500 kg de producto que
+                es para aportar los 130 kg de Nitrógeno recomendados.
+
+                <br>
+                <br>
+                <b style="color:cyan">Ejemplo 2</b>: a un productor le recomiendan realizar una aplicación de
+                fertilizante con la fórmula 60-60-60 en una hectárea de cultivo.
+                La opción más fácil para el productor es comprar un fertilizante
+                multinutriente de grado 15-15-15 que viene en saco de 50 kg. Un
+                saco de 50 kg de producto contiene 7.5 kg de cada nutriente primario,
+                por lo tanto, tenemos que 60/7.5 = 8. Es decir, se necesitan 8 sacos
+                de fertilizante (un total de 400 kg del producto)  para cubrir la
+                dósis recomendada de 60 kg de N, 60 kg de P<sub>2</sub>O<sub>5</sub> y
+                60 kg de K<sub>2</sub>O.
+                <br>
+                <br>
+                <text style="background-color:red;color:white;padding:0.3%;">EJERCICIO</text>
+
+                    <section style="background-color:#F7DC6F;color:black;padding:1%;font-weight:normal">
+
+
+                            <b>Lea el siguiente problema, sigue las instrucciones y contesta las preguntas</b>.
+                        <br>
+                        <br>
+                        Don Eleuterio tiene un rancho de 13,500 m<sup>2</sup> en el que siembra máiz.
+                        El téncino que le da asesoría le indica la siguiente recomendación de fertilización
+                        expresado en kg/ha: <b>92-0-0</b>.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </section>
+                    <section style="background-color:purple;color:#F7DC6F;padding:1%;font-weight:normal">
+
+                                    &emsp;<b>1</b>. Elige un fertilizante y calcula la cantidad de sacos que son necesarios
+                        para poder cubrir la dosis recomendada.<br>
+                                    &emsp;<b>2</b>. ¿Cuántos sacos del fertilizante elegido es necesario comprar para cubrir la recomendación dada?<br>
+                                    &emsp;<b>3</b>. ¿Cuántos kg de producto fueron necesarios para cubrir la recomendación dada?<br>
+                                    &emsp;
+
+                    </section>
+                <br>
+                <br>
+                <text style="background-color:red;color:white;padding:0.3%;">EJERCICIO</text>
+
+                    <section style="background-color:#F7DC6F;color:black;padding:1%;font-weight:normal">
+
+
+                            <b>Lea el siguiente problema, sigue las instrucciones y contesta las preguntas</b>.
+                        <br>
+                        <br>
+                        Don Macario tiene una parcela de 4,500 m<sup>2</sup> en el que siembra frijol.
+                        El téncino que le da asesoría le indica la siguiente recomendación de fertilización
+                        expresado en kg/ha: <b>60-20-40</b>.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </section>
+                    <section style="background-color:purple;color:#F7DC6F;padding:1%;font-weight:normal">
+
+                                    &emsp;<b>1</b>. Elige un fertilizante y calcula la cantidad de sacos que son necesarios
+                        para poder cubrir la dosis recomendada.<br>
+                                    &emsp;<b>2</b>. ¿Cuántos sacos del fertilizante elegido es necesario comprar para cubrir la recomendación dada?<br>
+                                    &emsp;<b>3</b>. ¿Cuántos kg de producto fueron necesarios para cubrir la recomendación dada?<br>
+                                    &emsp;
+
+                    </section>
+
+
+                <h3 id="9 cap">
+                    <br>
+                    <br>9. EL RIEGO</h3>
+
+
+                El riego consiste en suministrar a la planta el agua que necesita cuando no basta
+                la cantidad de agua suministrada por la lluvia. Los sistemas de riego se refieren a
+                las distintas formas de aplicación del agua, que viene consolidado por varios
+                factores, tales como:
+                <br>
+                <br>
+                - La pendiente del terreno.<br>
+                - La permeabilidad del suelo.<br>
+                - La capacidad de retención de agua del suelo.<br>
+                - El tipo de cultivo.<br>
+                - La inversión y el costo de mantenimiento.<br>
+                - La disponibilidad de mano de obra.
+                <br>
+                <br>
+                Los sistemas de riego se pueden clasificar de la siguiente forma:
+                <br>
+                <br>
+                - <i>Riego por gravedad o superficial</i>. El agua utiliza únicamente la acción de la gravedad
+                para su distribución. Asimismo se utiliza la superficie del suelo agrícola para la
+                distribución del agua.
+                <br>
+                <br>
+                - <i>Riego forzado</i>. El agua se distribuye a presión mediante un sistema de tuberías en donde
+                se instalan los emisores de agua. En el riego por <i>aspersión</i> hay una presión relativamente
+                grande, que produce chorros de agua a gran velocidad, mojando el suelo de una forma parecida a
+                como ocurre con la lluvia. En el <i>riego por goteo</i> hay una presión reducida y unos orificios
+                de salida muy pequeños, con lo cual el agua sale gota a gota y moja el suelo en profundidad, en
+                tanto que la superficie del mismo permanece seca o poco húmeda.
+                <br>
+                <br>
+
+
+                <h3 id="9 sub 1">
+                    <br>
+                    <br>9.1. Efectos del riego en la fertilización</h3>
+
+                Entre los diferentes efectos que el riego ejerce sobre el suelo y sobre los fertilizantes podemos
+                citar los siguientes:
+                <br>
+                <br>
+                - <i>Disminución pasajera de la aireación del suelo</i>. Después de efectuado un riego, el suelo
+                se satura de agua y ésta desplaza al aire de los poros durante algún tiempo. Como consecuencia de
+                la falta de oxígeno, las raíces respiran con dificultad, la vida microbiana se entorpece y, en
+                consecuencia, la asimilación de elementos nutritivos se realiza de forma defectuosa. Para evitar
+                este inconveniente es preciso que la situación anómala dure el menor tiempo posible, y esto se
+                consigue con aportaciones de agua no excesivas y con un buen drenaje del terreno.
+                <br>
+                <br>
+                - <i>Degradación de la estructura del suelo</i>. El agua aportada con el riego provoca la separación
+                de los agregados del suelo y facilita el paso del estado de floculación al estado de dispersión.
+                Esta desagregación de la estructura se aminora o se evita con los procedimientos siguientes:
+                <br>
+                <br>
+                &emsp;&emsp;-No aportar más agua de la requerida por el cultivo.<br>
+                &emsp;&emsp;-Optar por riego por goteo o riego por aspersión en lugar de riegos por superficie.<br>
+                &emsp;&emsp;-Aportar materia orgánica.<br>
+                &emsp;&emsp;-Que haya un buen contenido de calcio en el suelo debido al efecto favorable de
+                dicho ión sobre la estructura del suelo.
+                <br>
+                <br>
+                - <i>Aceleración del proceso de mineralización de la materia orgánica</i>. Una humedad suficiente,
+                aunque no excesiva, acelera la mineralización de la materia orgánica. Este proceso se nota
+                claramente cuando se pone en regadío una tierra de secano, puesto que se incrementan los rendimientos
+                de la cosecha durante algún tiempo. En estos casos se deben reponer las reservas de materia orgánica
+                del suelo, sobre todo en aquellos cultivos, como la papa, que dejan muy pocos residuos.
+                <br>
+                <br>
+                - <i>Modificación de la movilidad de algunos iones</i>. Los iones nitrato y sulfato se mueven con
+                mucha facilidad, desplazándose junto con el agua del suelo. Para evitar o aminorar el arrastre de
+                estos iones por el agua de drenaje conviene hacer en varias ocasiones la aportación de los abonos
+                que proporcionan estos iones y, al mismo tiempo, dosificar el riego conforme a la permeabilidad
+                del suelo y a la extensión del sistema radicular.
+                <br>
+                <br>
+                - <i>Aportaciones de iones desfavorables o de cantidades excesivas de otros iones</i>. El Na<sup>+</sup>,
+                que se fija al complejo arcilloso-húmico, tiene un efecto perjudicial sobre la estructura del suelo,
+                puesto que provoca la dispersión del complejo arcilloso-húmico, formando una masa compacta con
+                poca porosidad.
+                <br>
+                <br>
+                El Na<sup>+</sup> puede ser aportado por el agua de riego y suele ir acompañado de Cl<sup>-</sup>,
+                formando el cloruro de sodio. El exceso de cloro también es perjudicial, sobre todo cuando está
+                contenido en cloruro de sodio. Cuando se riega con aguas salinas debe procurarse emplear abonos
+                que no contengan cloro ni sodio, y se debe dar preferencia a aquellos otros que contengan bastante
+                cantidad de cal. Aparte de ello se deberán hacer aportaciones de cal.
+                <br>
+                <br>
+                El exceso de magnesio con relación al contenido de cal también tiene efectos desfavorables. Este
+                exceso de magnesio puede ser aportado con el agua de riego; para corregir los efectos desfavorables
+                es preciso hacer aportaciones abundantes de potasio.
+
+                <h3 id="9 sub 2">
+                    <br>
+                    <br>9.2. Concentración de sales en el riego</h3>
+
+                Los suelos contienen sales solubles que provienen de la descomposición de las rocas de donde
+                se originan y, también, de las aguas superficiales utilizadas para el riego y de las aguas
+                provenientes del subsuelo. Las aguas de riego aportan sales al suelo y las aguas de drenaje las
+                aliminan. Cuando la cantidad de sales incorporadas al suelo es mayor que la cantidad eliminada
+                se incrementa el nivel de salinidad, pudiendo llegar a límites peligrosos.
+                <br>
+                <br>
+                Las aguas de riego contienen, fundamentalmente, los siguientes iones:<br>
+                <table border=0
+           style="background-color:lightgrey;color:#515A5A;"
+           class="center2">
+                    <thead style="background-color:#CA3165;color:white">
+                    <tr style="font-weight:bold;"><td>Cationes</td><td>Aniones</td></tr></thead>
+                    <tr><td>Calcio (Ca<sup>2+</sup>)</td><td>Cloruro (Cl<sup>-</sup>)</td></tr>
+                    <tr><td>Magnesio (Mg<sup>3+</sup>)</td><td>Sulfato (SO<sub>4</sub><sup>2</sup>)</td></tr>
+                    <tr><td>Sodio (Na<sup>+</sup>)</td><td>Bicarbonato (CO<sub>3</sub>H<sup>-</sup>)</td></tr>
+                    <tr><td>Potasio (K<sup>+</sup>)</td><td>Carbonato (CO<sub>3</sub><sup>-<sup>)</td></tr>
+
+                </table>
+
+
+
+
+
+
+
+            </section>
 </div>
 
 </body>

@@ -48,3 +48,13 @@ function PopWinA1()
 {
     window.open("popA1.html","width=100%", "_self");
 }
+
+function PopWinA1s1()
+{
+    window.open("popA1s1.html","width=100%", "_self");
+}
+
+function PopWinA1s2()
+{
+    window.open("popA1s2.html","width=100%", "_self");
+}
