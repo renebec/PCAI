@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body id="A1r3">
+<script src="printer.js"></script>
+
+<link rel="stylesheet" type="text/css" media="print" href="estilos.css">
+<title>PCAI A1s3r3</title>
+<script src="actions.js"></script>
+
+<div>
+
+<table border=0
+       id="table1"
+           style="background-color:lightgrey;color:#333333"
+           class="center">
+     1.3.<br>
+     Rúbrica 3
+    <br>
+    <br>
+    <caption style="caption-side:bottom;text-align: left;font-size:20px">Puntuación máxima: 20 puntos<br>
+        n = suma de puntos obtenidos<br>
+    Calificación = (n &divide; 20) x 10</caption>
+    <button onclick="printFunction()" id="buttonPrintT1S1s2r1">Imprimir</button><br><br>
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr><th><u>Rasgos a evaluar</u></th><th><u>Nivel C: <br>5 puntos</u></th><th><u>Nivel B: <br>3 puntos</u></th><th><u>Nivel A: <br>0 puntos</u></th><tr></thead>
+            <tr style="background-color:grey"><td align="right"> <br></td><td align="right"> <br></td><td align="right"> </td><td align="right"> </td></tr>
+                <tr><td align="left"> Rasgo 1</td><td align="right">Forma equipo de 4 integrantes como se le indica y trabaja colaborativamente.</td><td align="right">Forma equipo pero no de 4 integrantes y se le dificulta el trabajo colaborativo.</td><td align="right">No forma equipo ni trabaja en equipo.</td></tr>
+            <tr style="background-color:grey"><td align="right"> <br></td><td align="right"> <br></td><td align="right"> </td><td align="right"> </td></tr>
+                <tr><td align="left"> Rasgo 2</td><td align="right">Representa claramente el croquis del proyecto sin errores.</td><td align="right">Representa el croquis del proyecto aunque con errores.</td><td align="right">No representa su proyecto en un croquis.</td></tr>
+            <tr style="background-color:grey"><td align="right"> <br></td><td align="right"> <br></td><td align="right"> </td><td align="right"> </td></tr>
+                <tr><td align="left"> Rasgo 3</td><td align="right">Identifica claramente los rumbos en el croquis y en el terreno.</td><td align="right">Identifica con errores los rumbos en el croquis y en el terreno.</td><td align="right">No identifica los rumbos.</td></tr>
+            <tr style="background-color:grey"><td align="right"> <br></td><td align="right"> <br></td><td align="right"> </td><td align="right"> </td></tr>
+                <tr><td align="left"> Rasgo 4</td><td align="right">Obtiene sin errores los costos de la obra.</td><td align="right">Obtiene los costos de la obra pero no son correctos.</td><td align="right">No puede calcular los precios de la obra.</td></tr>
+            <tr style="background-color:grey"><td align="right"> <br></td><td align="right"> <br></td><td align="right"> </td><td align="right"> </td></tr>
+                </table>
+
+<br>
+    <button onclick="PopWinClose()"
+                                style="background-color:#993622;font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+<br>
+    <br>
+    <br>
+
+
+    <!--
+<input id="btn-Preview-Image" type="button"
+                value="Preview" />
+
+    <a id="btn-Convert-Html2Image" href="#">
+        Download
+    </a>
+
+    <br/>
+
+
+    <div id="previewImage"></div>
+
+
+    <script>
+
+        $(document).ready(function() {
+
+            // Global variable
+            var element = $("#html-content-holder");
+
+            // Global variable
+            var getCanvas;
+
+            $("#btn-Preview-Image").on('click', function() {
+                html2canvas(element, {
+                    onrendered: function(canvas) {
+                        $("#previewImage").append(canvas);
+                        getCanvas = canvas;
+                    }
+                });
+            });
+
+            $("#btn-Convert-Html2Image").on('click', function() {
+                var imgageData =
+                    getCanvas.toDataURL("image/png");
+
+                // Now browser starts downloading
+                // it instead of just showing it
+                var newData = imgageData.replace(
+                /^data:image\/png/, "data:application/octet-stream");
+
+                $("#btn-Convert-Html2Image").attr(
+                "download", "GeeksForGeeks.png").attr(
+                "href", newData);
+            });
+        });
+
+    </script>
+
+
+-->
+</div>
+</body>
+</html>

@@ -68,3 +68,8 @@ function PopWinAr2()
 {
     floatingWindow = window.open("popAr2.html","","height=400,width=400,scrollbars=yes");
 }
+
+function PopWinAr3()
+{
+    floatingWindow = window.open("popAr3.html","","height=400,width=400,scrollbars=yes");
+}
